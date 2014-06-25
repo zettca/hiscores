@@ -1,8 +1,4 @@
 Runescape Memberlists and Hiscores
 ========
 
-A client-side Javascript-based Runescape Memberlist&Hiscores application
-
-
-
-* in BETA version *
+A simple client-side Javascript-based Runescape Memberlist&Hiscores application.
