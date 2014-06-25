@@ -1,0 +1,143 @@
+html, body, div, span, a, img, ins, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, footer, header, menu, nav { margin: 0; padding: 0; border: 0; }
+
+body{
+	background-color: #222222;
+	font-family: 'Open Sans', 'Trebuchet MS', 'Lucida sans', Arial;
+}
+
+header{
+	top: 0px;
+	height: 99%;
+	float: left;
+	position: fixed;
+	margin: 20px 0px;
+}
+
+footer{
+	padding: 10px;
+	text-align: center;
+}
+
+#content{
+	padding: 5px;
+	margin: 20px 50px 100px 140px;
+	min-width: 600px;
+	min-height: 200px;
+}
+
+#tableHiscores{
+	width: 100%;
+	margin: 0 auto;
+	border: 2px solid #FFFFCC;
+	border-radius: 6px;
+	border-spacing: 0;
+	box-shadow: 0px 0px 5px #FFFFFF;
+}
+
+.hsTable thead img{ height: 26px; }
+.hsTable tbody img{ height: 50px; }
+
+.hsTable td, .hsTable th{
+	padding: 6px;
+	text-align: center;
+}
+
+.hsTable td{
+	font-size: 16px;
+}
+
+.hsTable thead th{
+	border-top: none;
+	background-color: #FAFAFA;
+}
+
+.hsTable tbody td a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.hsTable tbody tr{
+	height: 40px;
+	font-size: 14px;
+}
+
+.hsTable tbody tr td:first-child{
+	font-size: 18px;
+}
+
+.hsTable thead th:nth-child(2){
+	text-align: left;
+	padding-left: 20px;
+}
+
+.hsTable tbody tr td:nth-child(3){
+	text-align: left;
+	padding-left: 10px;
+}
+
+.hsTable tbody tr td:last-child{
+	text-align: right;
+	padding-right: 48px;
+}
+
+.hsTable tbody tr:nth-child(2n){
+	background-color: #E9E9E9;
+}
+
+.hsTable tbody tr:nth-child(2n+1){
+	background-color: #E0E0E0;
+}
+
+.hsTable tbody tr:hover{
+	background-color: #EBE8C9 !important;
+}
+
+/* ########################################## */
+
+nav{
+	width: 128px;
+}
+
+nav img{
+	width: 16px;
+}
+
+.menu{
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;
+	background-color: #efefef;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.menu:hover {
+	background-color: #CCCCCC;
+}
+.menu a { 
+	z-index: 999;
+	display: block; padding: 15px 22px;
+	color: #757575; text-decoration: none;
+}
+	.menu ul { /* submenu */
+		max-height: 288px;
+		overflow: auto;
+		display: none;
+		padding: 0px;
+		z-index: 9999;
+		border-radius: 0px 0px 5px 5px;
+		background-color: #EEEEEE;
+	}
+		.menu li {
+			float: none;
+			font-size: 10px;
+			text-align: left;
+		}
+			.menu li a {
+				padding: 8px 10px;
+				color: #333333;
+			}	
+				.menu li a:hover {
+					background-color: #EBE8C9;
+				}
