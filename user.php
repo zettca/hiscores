@@ -12,9 +12,6 @@
 		var rsn = <?php echo "'".$_GET["rsn"]."'"; ?>;
 		var JSONE;
 		$(document).ready(function (){
-			$("#update").click(function(){
-				getUpdate(rsn);
-			});
 			$.ajax({
 				async: false,
 				type: "POST",
@@ -28,9 +25,6 @@
 						$(this).html('<img src="res/img/'+skill+'.png"><span>'+JSONE[skill].level+'</span>');
 					});
 				},
-				error: function (){
-					getUpdate(rsn);
-				}
 			});
 		});
 		</script>
@@ -48,7 +42,6 @@
 		}
 		#tableStats td img{
 			float: left;
-			
 		}
 		</style>
 	</head>

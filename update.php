@@ -43,7 +43,11 @@
 			$JSONE = "[";
 			while(!feof($fileText)){
 				$rsn = str_replace(" ", "_",substr(fgets($fileText), 0, -1));
-				if ($rsn) $JSONE .= getPlayerStats($rsn).",";
+				if ($rsn){
+					$JSONE .= getPlayerStats($rsn).",";
+					unlink("json/player/$rsn.json");
+					file_put_contents("json/player/$rsn.json", $JSONE);
+				}
 			}
 			$JSONE = substr($JSONE, 0, -1) . "]";
 			//echo "=<br/>".number_format((float)microtime(true)-$startTime,4);

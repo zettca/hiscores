@@ -18,6 +18,8 @@ footer{
 	text-align: center;
 }
 
+a{ cursor: pointer;}
+
 #content{
 	padding: 5px;
 	margin: 20px 50px 100px 140px;
@@ -115,7 +117,7 @@ nav img{
 .menu:hover {
 	background-color: #CCCCCC;
 }
-.menu a { 
+.menu a {
 	z-index: 999;
 	display: block; padding: 15px 22px;
 	color: #757575; text-decoration: none;
@@ -135,8 +137,8 @@ nav img{
 			text-align: left;
 		}
 			.menu li a {
-				padding: 8px 10px;
 				color: #333333;
+				padding: 8px 10px;
 			}	
 				.menu li a:hover {
 					background-color: #EBE8C9;
