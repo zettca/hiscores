@@ -10,10 +10,16 @@ $(document).ready(function (){
 		$(this).children().children("ul").hide("blind");
 	});
 
-	$(".clan a, .stat a").on("click", function(){
+	$(".clan a").on("click", function(){
 		var id = $(this).attr("id");
 		if (id) setMemberlist(id);
 	});
+
+	$(".stat a").on("click", function(){
+		var id = $(this).attr("id");
+		if (id) createTable(id);
+	});
+
 });
 
 function contentInit(){
