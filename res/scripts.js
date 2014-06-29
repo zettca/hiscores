@@ -54,7 +54,7 @@ function createTable(stat){
 	$("#tableHiscores tbody").html("");
 	$.each(json, function (i, player){
 		var cellAvatar = '<td><img src="http://services.runescape.com/m=avatar-rs/'+player.rsn+'/chat.png" alt=""></td>';
-		var cellRSN = '<td><a class="ttStats" title="'+player.rsn+'">'+player.rsn+'</a></td>';
+		var cellRSN = '<td><a class="rsn" title="'+player.rsn+'">'+player.rsn+'</a></td>';
 		var cellCombat = '<td>'+getCombat(player)+'</td>';
 		if (player[stat].isSkill){
 			var cellStatLevel = '<td title="'+getLevel(player[stat].exp)+'">'+player[stat].level+'</td>';
@@ -99,12 +99,10 @@ function getCombat(player){
 
 
 
-
-
 function handleTooltips(){
 	var css = '<style type="text/css"> #tableStats td{ border: 1px solid #CCCCCC; border-radius: 6px; box-shadow: 0px 0px 5px #FFFFFF; padding: 5px; } #tableStats td span{ float: right; vertical-align: -5px; font-size: 14px; } #tableStats td img{ float: left; height: 20px; } </style>';
 	var html;
-	$(".ttStats").tooltip().hover(function () {
+	$(".rsn").tooltip().hover(function () {
 		$(this).tooltip({
 			items: "[title]",
 			content: function () {

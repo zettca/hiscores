@@ -15,17 +15,12 @@
 		$dude = array();
 		$dude["rsn"] = $rsn;
 		$rsnStart = microtime(true);
-
-		$ch = curl_init("http://hiscore.runescape.com/index_lite.ws?player=$rsn");
-		$content = explode("\n",curl_exec($ch));
-		curl_close($ch);
-
-		//$content = explode("\n",file_get_contents("http://hiscore.runescape.com/index_lite.ws?player=$rsn"));
-		echo number_format((float)microtime(true)-$rsnStart,4)." $rsn<br/>";
+		$content = explode("\n",file_get_contents("http://hiscore.runescape.com/index_lite.ws?player=$rsn"));
 		for ($i=0; $i<STATS; $i++){
 			$x = split(",", $content[$i]); // rank,level,exp
 			$dude[$stats[$i]] = ($i < SKILLS) ? array("rank"=>(int)$x[0],"level"=>(int)$x[1],"exp"=>(int)$x[2],"isSkill"=>(boolean)true) : array("rank"=>(int)$x[0],"score"=>(int)$x[1],"isSkill"=>(boolean)false);
 		}
+		echo number_format((float)microtime(true)-$rsnStart,4)." $rsn<br/>";
 		return json_encode($dude);
 	}
 
