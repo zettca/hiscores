@@ -18,7 +18,11 @@ footer{
 	text-align: center;
 }
 
-a{ cursor: pointer;}
+a { cursor: pointer; }
+nav { width: 128px; }
+nav img{ width: 16px; }
+
+/* CLASSES AND OBJECTSES  */
 
 #content{
 	padding: 5px;
@@ -40,7 +44,7 @@ a{ cursor: pointer;}
 .hsTable tbody img{ height: 42px; } /* Avatars */
 
 .hsTable td, .hsTable th{
-	padding: 5px;
+	padding: 5px 0px;
 	text-align: center;
 }
 
@@ -95,14 +99,6 @@ a{ cursor: pointer;}
 }
 
 /* ########################################## */
-
-nav{
-	width: 128px;
-}
-
-nav img{
-	width: 16px;
-}
 
 .menu{
 	font-size: 16px;

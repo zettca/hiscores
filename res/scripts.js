@@ -34,7 +34,7 @@ String.prototype.capitalize = function() {
 function setMemberlist(ml){
 	$.ajax({
 		async: false,
-		type: "GET",
+		type: "POST",
 		url: "json/"+ml+".json",
 		dataType: "json",
 		success: function (json){
@@ -102,7 +102,7 @@ function getCombat(player){
 
 
 function handleTooltips(){
-	var css = '<style type="text/css"> #tableStats td{ border: 1px solid #CCCCCC; border-radius: 6px; box-shadow: 0px 0px 5px #FFFFFF; padding: 5px 10px; } #tableStats td span{ float: right; vertical-align: -5px; font-size: 14px; } #tableStats td img{ float: left; height: 20px; } </style>';
+	var css = '<style type="text/css"> #tableStats td{ border: 1px solid #CCCCCC; border-radius: 6px; box-shadow: 0px 0px 5px #FFFFFF; padding: 5px; } #tableStats td span{ float: right; vertical-align: -5px; font-size: 14px; } #tableStats td img{ float: left; height: 20px; } </style>';
 	var html;
 	$(".ttStats").tooltip().hover(function () {
 		$(this).tooltip({
@@ -111,7 +111,7 @@ function handleTooltips(){
 				var rsn = $(this).html();
 				$.ajax({
 					async: false,
-					type: "GET",
+					type: "POST",
 					url: "json/player/"+rsn+".json",
 					dataType: "json",
 					success: function (json){
