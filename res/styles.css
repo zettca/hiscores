@@ -40,62 +40,66 @@ nav img{ width: 16px; }
 	box-shadow: 0px 0px 5px #FFFFFF;
 }
 
-.hsTable thead img{ height: 26px; } /* Skill Logo */
-.hsTable tbody img{ height: 42px; } /* Avatars */
+#tableHiscores thead img{ height: 26px; } /* Skill Logo */
+#tableHiscores tbody img{ height: 42px; } /* Avatars */
 
-.hsTable td, .hsTable th{
+#tableHiscores td, #tableHiscores th{
 	padding: 5px 0px;
 	text-align: center;
 }
 
-.hsTable td{
+#tableHiscores td{
 	font-size: 16px;
 }
 
-.hsTable th{
+#tableHiscores th{
 	border-top: none;
 	background-color: #FAFAFA;
 }
 
-.hsTable tbody td a{
+#tableHiscores tbody td a{
 	color: #000000;
 	text-decoration: none;
 }
 
-.hsTable tbody tr{
+#tableHiscores tbody tr{
 	height: 40px;
 	font-size: 14px;
 }
 
-.hsTable tbody tr td:first-child{
+#tableHiscores tbody tr td:first-child{
 	font-size: 18px;
 }
 
-.hsTable thead th:nth-child(2){
+#tableHiscores thead th:nth-child(2){
 	text-align: left;
 	padding-left: 20px;
 }
 
-.hsTable tbody tr td:nth-child(3){
+#tableHiscores tbody tr td:nth-child(3){
 	text-align: left;
 	padding-left: 10px;
 }
 
-.hsTable tbody tr td:last-child{
+#tableHiscores tbody tr td:last-child{
 	text-align: right;
 	padding-right: 48px;
 }
 
-.hsTable tbody tr:nth-child(2n){
+#tableHiscores tbody tr:nth-child(2n){
 	background-color: #E9E9E9;
 }
 
-.hsTable tbody tr:nth-child(2n+1){
+#tableHiscores tbody tr:nth-child(2n+1){
 	background-color: #E0E0E0;
 }
 
-.hsTable tbody tr:hover{
+#tableHiscores tbody tr:hover{
 	background-color: #EBE8C9 !important;
+}
+
+#tableHiscores .userStats{
+	display: none;
 }
 
 /* ########################################## */
@@ -118,24 +122,24 @@ nav img{ width: 16px; }
 	display: block; padding: 15px 22px;
 	color: #757575; text-decoration: none;
 }
-	.menu ul { /* submenu */
-		max-height: 288px;
-		overflow: auto;
-		display: none;
-		padding: 0px;
-		z-index: 9999;
-		border-radius: 0px 0px 5px 5px;
-		background-color: #EEEEEE;
+.menu ul { /* submenu */
+	max-height: 288px;
+	overflow: auto;
+	display: none;
+	padding: 0px;
+	z-index: 9999;
+	border-radius: 0px 0px 5px 5px;
+	background-color: #EEEEEE;
+}
+	.menu li {
+		float: none;
+		font-size: 10px;
+		text-align: left;
 	}
-		.menu li {
-			float: none;
-			font-size: 10px;
-			text-align: left;
-		}
-			.menu li a {
-				color: #333333;
-				padding: 8px 10px;
-			}	
-				.menu li a:hover {
-					background-color: #EBE8C9;
-				}
+		.menu li a {
+			color: #333333;
+			padding: 8px 10px;
+		}	
+			.menu li a:hover {
+				background-color: #EBE8C9;
+			}

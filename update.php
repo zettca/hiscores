@@ -7,54 +7,61 @@
 	</head>
 </html>
 <?php
-	define("STATS", 49);
-	define("SKILLS", 27);
-
 	function getPlayerStats($rsn){ // rsn -> stats json
-		$stats = array("overall","attack","defence","strength","constitution","ranged","prayer","magic","cooking","woodcutting","fletching","fishing","firemaking","crafting","smithing","mining","herblore","agility","thieving","slayer","farming","runecrafting","hunter","construction","summoning","dungeoneering","divination","bounty_hunter","bounty_hunter_rouges","dominion_tower","crucible","castle_wars","BA_attackers","BA_defenders","BA_collectors","BA_healers","duel_tournaments","mobilising_armies","conquest","fist_of_guthix","GG_resource","GG_athletics","we2","we2","we2","we2","heist_guard","heist_robber","CFP");
-		$dude = array();
-		$dude["rsn"] = $rsn;
-		$rsnStart = microtime(true);
-		$content = explode("\n",file_get_contents("http://hiscore.runescape.com/index_lite.ws?player=$rsn"));
-		for ($i=0; $i<STATS; $i++){
-			$x = split(",", $content[$i]); // rank,level,exp
-			$dude[$stats[$i]] = ($i < SKILLS) ? array("rank"=>(int)$x[0],"level"=>(int)$x[1],"exp"=>(int)$x[2],"isSkill"=>(boolean)true) : array("rank"=>(int)$x[0],"score"=>(int)$x[1],"isSkill"=>(boolean)false);
-		}
-		echo number_format((float)microtime(true)-$rsnStart,4)." $rsn<br/>";
-		return json_encode($dude);
+		global $game;
+		$player = array();
+		$player["rsn"] = $rsn;
+
+		$stats = ($game=="eoc") ? array("overall","attack","defence","strength","constitution","ranged","prayer","magic","cooking","woodcutting","fletching","fishing","firemaking","crafting","smithing","mining","herblore","agility","thieving","slayer","farming","runecrafting","hunter","construction","summoning","dungeoneering","divination","bounty_hunter","bounty_hunter_rouges","dominion_tower","crucible","castle_wars","BA_attackers","BA_defenders","BA_collectors","BA_healers","duel_tournaments","mobilising_armies","conquest","fist_of_guthix","GG_resource","GG_athletics","we2","we2","we2","we2","heist_guard","heist_robber","CFP") : array("overall","attack","defence","strength","constitution","ranged","prayer","magic","cooking","woodcutting","fletching","fishing","firemaking","crafting","smithing","mining","herblore","agility","thieving","slayer","farming","runecrafting","hunter","construction");
+		$link = ($game=="eoc") ? "http://hiscore.runescape.com/index_lite.ws" : "http://services.runescape.com/m=hiscore_oldschool/index_lite.ws";
+		$handle = curl_init();
+		curl_setopt($handle, CURLOPT_URL, $link);
+		curl_setopt($handle, CURLOPT_POSTFIELDS, "player=$rsn");
+		curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
+
+		$data = explode("\n",curl_exec($handle));
+		curl_close($handle);
+
+		$numStats = ($game=="eoc") ? 49 : 24;
+		$numSkills = ($game=="eoc") ? 27 : 24;
+
+		for ($i=0; $i<$numStats; $i++){
+			$x = split(",", $data[$i]); // stat | [rank,level,exp]
+			$player[$stats[$i]] = ($i < $numSkills) ? array("rank"=>(int)$x[0],"level"=>(int)$x[1],"exp"=>(int)$x[2]) : array("rank"=>(int)$x[0],"score"=>(int)$x[1]);
+		} return json_encode($player);
 	}
 
-	if (isset($_GET["ml"])){ // update memberlist if existing
+	$game = (isset($_GET["game"])) ? (($_GET["game"]=="osrs") ? "osrs" : "eoc") : "eoc";
+
+	if (isset($_GET["ml"])){ // memberlist update
 		$ml = $_GET["ml"];
-		$fileText = fopen("ml/$ml", "r");
-		if ($fileText){
+		$fileText = fopen("ml/$game/$ml", "r");
+		if ($fileText){ // memberlist exists
 			$startTime = microtime(true);
 			$JSONE = "[";
 			while(!feof($fileText)){
 				$rsn = str_replace(" ", "_",substr(fgets($fileText), 0, -1));
-				if ($rsn){
-					$pStats = getPlayerStats($rsn);
-					$JSONE .= $pStats.",";
-					unlink("json/player/$rsn.json");
-					file_put_contents("json/player/$rsn.json", $pStats);
-				}
+				if ($rsn)
+					$JSONE .= getPlayerStats($rsn).",";
 			}
 			$JSONE = substr($JSONE, 0, -1) . "]";
 			fclose($fileText);
-			unlink("json/$ml.json");
-			file_put_contents("json/$ml.json", $JSONE);
+			file_put_contents("json/$game/$ml.json", $JSONE);
 			//echo $JSONE;
-			echo "=<br/>".number_format((float)microtime(true)-$startTime,4);
-		} else echo "$ml isn't a valid memberlist";
+			echo "Update on <b>$ml</b> sucessful. Took <u>".number_format((float)microtime(true)-$startTime,4)."</u> seconds.";
+		} else echo "<b>$ml</b> isn't a valid memberlist";
 	}
 
+	if (isset($_GET["list"])){ // userlist
+		$dudes = $_GET["list"];
+		$list = explode(",", "$dudes");
+		if (count($list) > 0){ // has users to checkz
+			$startTime = microtime(true);
+			foreach ($list as $rsn) {
+				echo getPlayerStats($rsn)."<br/>";
+			}
+			echo "GET on <b>$dudes</b> sucessful. Took <u>".number_format((float)microtime(true)-$startTime,4)."</u> seconds.";
+		} else echo "<b>$dudes</b> isn't a valid username string";
+	}
 
-	if (isset($_GET["player"])){ // update player if existing
-		$rsn = $_GET["player"];
-		$JSONE = getPlayerStats($rsn);
-		if ($JSONE){
-			unlink("json/player/$rsn.json");
-			file_put_contents("json/player/$rsn.json", $JSONE);
-		}
-	}	
 ?>

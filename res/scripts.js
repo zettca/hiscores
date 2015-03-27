@@ -17,8 +17,16 @@ $(document).ready(function (){
 
 	$(".stat a").on("click", function(){
 		var id = $(this).attr("id");
-		if (id) createTable(id);
+		var type = $(this).parent().parent().siblings("a").html();
+		if (id){
+			if (type=="Skills")
+				createTable(id,true);
+			else if (type=="Minigames")
+				createTable(id,false)
+		}
 	});
+
+	setMemberlist("eoc-playfun");
 
 });
 
@@ -32,22 +40,27 @@ String.prototype.capitalize = function() {
 };
 
 function setMemberlist(ml){
+	var ml = ml.replace("-","/").replace("_","/");
 	$.ajax({
 		async: false,
 		type: "POST",
 		url: "json/"+ml+".json",
 		dataType: "json",
 		success: function (json){
+			console.log("opening file json/"+ml+".json");
 			JSONE = json;
-			createTable("overall");
+			createTable("overall",true);
 		},
 	});
 }
 
-function createTable(stat){
+function createTable(stat, isSkill){
 	var x = 0;
 	var json = JSONE.slice();
 	var statName = stat.replace(/_/g, " ").capitalize();
+
+	if (!json[0][stat])
+		throw (stat+" isn't a valid stat.");
 
 	json.sort(function(p1,p2){ if (parseInt(p1[stat].rank)<1) return 1; if (parseInt(p2[stat].rank)<1) return -1; return parseInt(p1[stat].rank)-parseInt(p2[stat].rank); });
 	
@@ -56,7 +69,7 @@ function createTable(stat){
 		var cellAvatar = '<td><img src="http://services.runescape.com/m=avatar-rs/'+player.rsn+'/chat.png" alt=""></td>';
 		var cellRSN = '<td><a class="rsn" title="'+player.rsn+'">'+player.rsn+'</a></td>';
 		var cellCombat = '<td>'+getCombat(player)+'</td>';
-		if (player[stat].isSkill){
+		if (isSkill){
 			var cellStatLevel = '<td title="'+getLevel(player[stat].exp)+'">'+player[stat].level+'</td>';
 			var cellStatExp = "<td>"+player[stat].exp+"</td>";
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatLevel+cellStatExp+"</tr>";
@@ -66,7 +79,7 @@ function createTable(stat){
 			var cellStatScore = "<td>"+player[stat].score+"</td>";
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatScore+"</tr>";
 		}
-		if (player[stat].rank > 0){
+		if ((isSkill && player[stat].level>1) || player[stat].rank > 0){
 			$("#tableHiscores tbody").append(rowContent);
 			x++;
 		}
@@ -77,9 +90,9 @@ function createTable(stat){
 	var rowHeadSkill = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Level</th><th>Experience</th></tr>';
 	var rowHeadMG = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Score</th></tr>';
 	var rowInvalid = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">There are no members to display</th></tr>';
-	$("#tableHiscores thead").html((x>0) ? ((json[0][stat].isSkill) ? rowHeadSkill : rowHeadMG) : rowInvalid);
+	$("#tableHiscores thead").html((x>0) ? ((isSkill) ? rowHeadSkill : rowHeadMG) : rowInvalid);
 
-	handleTooltips();
+	handlePlayerStats();
 }
 
 function getLevel(exp){
@@ -93,34 +106,16 @@ function getLevel(exp){
 }
 
 function getCombat(player){
-	var cmb = Math.max(player.attack.level, player.strength.level, player.magic.level, player.ranged.level, player.summoning.level);
-	return parseInt(2 + parseInt(player.defence.level) + Math.max(cmb));
+	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + 1.3 * Math.max(player.attack.level+player.strength.level,1.5*player.magic.level,1.5*player.ranged.level);
+	return parseInt(cmb/4);
 }
 
 
 
-function handleTooltips(){
-	var css = '<style type="text/css"> #tableStats td{ border: 1px solid #CCCCCC; border-radius: 6px; box-shadow: 0px 0px 5px #FFFFFF; padding: 5px; } #tableStats td span{ float: right; vertical-align: -5px; font-size: 14px; } #tableStats td img{ float: left; height: 20px; } </style>';
-	var html;
-	$(".rsn").tooltip().hover(function () {
-		$(this).tooltip({
-			items: "[title]",
-			content: function () {
-				var rsn = $(this).html();
-				$.ajax({
-					async: false,
-					type: "POST",
-					url: "json/player/"+rsn+".json",
-					dataType: "json",
-					success: function (json){
-						html = '<table id="tableStats"><tr><td><img src="res/img/attack.png"><span>'+json['attack'].level+'</span></td><td><img src="res/img/constitution.png"><span>'+json['constitution'].level+'</span></td><td id="mining"><img src="res/img/mining.png"><span>'+json['mining'].level+'</span></td></tr><tr><td id="strength"><img src="res/img/strength.png"><span>'+json['strength'].level+'</span></td><td id="agility"><img src="res/img/agility.png"><span>'+json['agility'].level+'</span></td><td id="smithing"><img src="res/img/smithing.png"><span>'+json['smithing'].level+'</span></td></tr><tr><td id="defence"><img src="res/img/defence.png"><span>'+json['defence'].level+'</span></td><td id="herblore"><img src="res/img/herblore.png"><span>'+json['herblore'].level+'</span></td><td id="fishing"><img src="res/img/fishing.png"><span>'+json['fishing'].level+'</span></td></tr><tr><td id="ranged"><img src="res/img/ranged.png"><span>'+json['ranged'].level+'</span></td><td id="thieving"><img src="res/img/thieving.png"><span>'+json['thieving'].level+'</span></td><td id="cooking"><img src="res/img/cooking.png"><span>'+json['cooking'].level+'</span></td></tr><tr><td id="prayer"><img src="res/img/prayer.png"><span>'+json['prayer'].level+'</span></td><td id="crafting"><img src="res/img/crafting.png"><span>'+json['crafting'].level+'</span></td><td id="firemaking"><img src="res/img/firemaking.png"><span>'+json['firemaking'].level+'</span></td></tr><tr><td id="magic"><img src="res/img/magic.png"><span>'+json['magic'].level+'</span></td><td id="fletching"><img src="res/img/fletching.png"><span>'+json['fletching'].level+'</span></td><td id="woodcutting"><img src="res/img/woodcutting.png"><span>'+json['woodcutting'].level+'</span></td></tr><tr><td id="runecrafting"><img src="res/img/runecrafting.png"><span>'+json['runecrafting'].level+'</span></td><td id="slayer"><img src="res/img/slayer.png"><span>'+json['slayer'].level+'</span></td><td id="farming"><img src="res/img/farming.png"><span>'+json['farming'].level+'</span></td></tr><tr><td id="construction"><img src="res/img/construction.png"><span>'+json['construction'].level+'</span></td><td id="hunter"><img src="res/img/hunter.png"><span>'+json['hunter'].level+'</span></td><td id="summoning"><img src="res/img/summoning.png"><span>'+json['summoning'].level+'</span></td></tr><tr><td id="dungeoneering"><img src="res/img/dungeoneering.png"><span>'+json['dungeoneering'].level+'</span></td><td id="divination"><img src="res/img/divination.png"><span>'+json['divination'].level+'</span></td><td id="overall"><img src="res/img/overall.png"><span>'+json['overall'].level+'</span></td></tr></table>';
-					}
-				});
-				return css+html;
-			}
-		});
+function handlePlayerStats(){
+	$(".rsn").click(function (){
+		console.log("ToDo");
 	});
-
 }
 
 function queryString(){
