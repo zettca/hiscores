@@ -1,5 +1,9 @@
-$(document).ready(function (){
-	contentInit();
+$(document).ready(function(){
+	setMemberlist("playfun", "eoc");
+	$("#tableHiscores").width(($(window).width() >= 1000) ? 800 : "100%");
+	$(window).resize(function(){
+		$("#tableHiscores").width(($(window).width() >= 1000) ? 800 : "100%");
+	});
 
 	$("nav .menu").on("mouseenter", function(){
 		$(this).children("ul").show("blind",160);
@@ -11,8 +15,9 @@ $(document).ready(function (){
 	});
 
 	$(".clan a").on("click", function(){
-		var id = $(this).attr("id");
-		if (id) setMemberlist(id);
+		var ml = $(this).attr("ml");
+		var game = $(this).attr("game");
+		if (ml) setMemberlist(ml, game);
 	});
 
 	$(".stat a").on("click", function(){
@@ -26,28 +31,38 @@ $(document).ready(function (){
 		}
 	});
 
-	setMemberlist("eoc-playfun");
-
 });
-
-function contentInit(){
-	if ($("footer"))
-		$(this).html("&copy;&nbsp;ZETTCA 2014");
-}
 
 String.prototype.capitalize = function() {
 	return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
 };
 
-function setMemberlist(ml){
+function getLevel(exp){
+	var xp=0;
+	if (exp<0 || exp>200000000) return -1;
+
+	for (var lvl=1;lvl<127;lvl++){
+		xp += Math.floor(lvl + 300 * Math.pow(2, lvl / 7.));
+		if (Math.floor(xp/4) > exp) return lvl; 
+	}
+}
+
+function getCombat(player){
+	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + 1.3 * Math.max(player.attack.level+player.strength.level,1.5*player.magic.level,1.5*player.ranged.level);
+	return parseInt(cmb/4);
+}
+
+function setMemberlist(ml, game){
+	if (!game) game = "eoc";
 	var ml = ml.replace("-","/").replace("_","/");
+	var url = "json/"+game+"/"+ml+".json";
 	$.ajax({
 		async: false,
-		type: "POST",
-		url: "json/"+ml+".json",
+		type: "GET",
+		url: url,
 		dataType: "json",
 		success: function (json){
-			console.log("opening file json/"+ml+".json");
+			console.log("opening file "+url);
 			JSONE = json;
 			createTable("overall",true);
 		},
@@ -91,43 +106,4 @@ function createTable(stat, isSkill){
 	var rowHeadMG = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Score</th></tr>';
 	var rowInvalid = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">There are no members to display</th></tr>';
 	$("#tableHiscores thead").html((x>0) ? ((isSkill) ? rowHeadSkill : rowHeadMG) : rowInvalid);
-
-	handlePlayerStats();
-}
-
-function getLevel(exp){
-	var xp=0;
-	if (exp<0 || exp>200000000) return -1;
-
-	for (var lvl=1;lvl<127;lvl++){
-		xp += Math.floor(lvl + 300 * Math.pow(2, lvl / 7.));
-		if (Math.floor(xp/4) > exp) return lvl; 
-	}
-}
-
-function getCombat(player){
-	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + 1.3 * Math.max(player.attack.level+player.strength.level,1.5*player.magic.level,1.5*player.ranged.level);
-	return parseInt(cmb/4);
-}
-
-
-
-function handlePlayerStats(){
-	$(".rsn").click(function (){
-		console.log("ToDo");
-	});
-}
-
-function queryString(){
-	var QS = new Object();
-	var qe = location.href.split("?")[1].split("&");
-	qe.forEach(function(el, i){
-		x = el.split("=");
-		QS[x[0]] = x[1];
-	});
-	return QS;
-}
-
-function spaceNumber(n) {
-	return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }

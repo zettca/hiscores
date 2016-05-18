@@ -8,25 +8,16 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="res/scripts.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function (){
-			setMemberlist("playfun");
-			$("#tableHiscores").width(($(window).width() >= 1000) ? 800 : "100%");
-			$(window).resize(function(){
-				$("#tableHiscores").width(($(window).width() >= 1000) ? 800 : "100%");
-			});
-		});
-		</script>
 	</head>
 	<body>
 		<header>
 			<nav>
 				<div class="menu clan"><a>Clan</a>
 					<ul>
-						<li><a id="eoc-rsportugal">CPRS EoC</a></li>
-						<li><a id="osrs-rsportugal">CPRS OSRS</a></li>
-						<li><a id="eoc-playfun">PlayFun</a></li>
-						<li><a id="eoc-pros">PROS Test</a></li>
+						<li><a game="eoc" ml="rsportugal">CPRS EoC</a></li>
+						<li><a game="osrs" ml="rsportugal">CPRS OSRS</a></li>
+						<li><a game="eoc" ml="playfun">PlayFun</a></li>
+						<li><a game="eoc" ml="pros">PROS Test</a></li>
 					</ul>
 				</div>
 				<div class="menu stat"><a>Skills</a>
