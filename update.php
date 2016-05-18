@@ -1,12 +1,6 @@
-<html>
-	<head>
-		<style type="text/css">
-			body { font-family: "Courier New", "monospace"; font-size: 12px; }
-		</style>
-		<title>Stats Updater</title>
-	</head>
-</html>
 <?php
+	header('Content-Type: application/json');
+
 	function getPlayerStats($rsn){ // rsn -> stats json
 		global $game;
 		$player = array();
@@ -35,7 +29,7 @@
 
 	if (isset($_GET["ml"])){ // memberlist update
 		$ml = $_GET["ml"];
-		$fileText = fopen("ml/$game/$ml", "r");
+		$fileText = fopen("ml/$game/$ml.csv", "r");
 		if ($fileText){ // memberlist exists
 			$startTime = microtime(true);
 			$JSONE = "[";
