@@ -13,6 +13,13 @@ header{
 	margin: 20px 0px;
 }
 
+main{
+	padding: 5px;
+	margin: 20px 50px 100px 140px;
+	min-width: 600px;
+	min-height: 200px;
+}
+
 footer{
 	padding: 10px;
 	text-align: center;
@@ -24,12 +31,6 @@ nav img{ width: 16px; }
 
 /* CLASSES AND OBJECTSES  */
 
-#content{
-	padding: 5px;
-	margin: 20px 50px 100px 140px;
-	min-width: 600px;
-	min-height: 200px;
-}
 
 #tableHiscores{
 	width: 100%;

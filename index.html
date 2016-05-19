@@ -1,87 +1,88 @@
-<html>
-	<head>
-		<title>Hiscores</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="res/styles.css" />
-		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans' type='text/css' />
-		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="res/scripts.js"></script>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="menu clan"><a>Clan</a>
-					<ul>
-						<li><a game="eoc" ml="rsportugal">CPRS EoC</a></li>
-						<li><a game="osrs" ml="rsportugal">CPRS OSRS</a></li>
-						<li><a game="eoc" ml="playfun">PlayFun</a></li>
-						<li><a game="eoc" ml="pros">PROS Test</a></li>
-					</ul>
-				</div>
-				<div class="menu stat"><a>Skills</a>
-					<ul>
-						<li><a id="attack"><img src="res/img/attack.png"> Attack</a></li>
-						<li><a id="defence"><img src="res/img/defence.png"> Defence</a></li>
-						<li><a id="strength"><img src="res/img/strength.png"> Strength</a></li>
-						<li><a id="constitution"><img src="res/img/constitution.png"> Constitution</a></li>
-						<li><a id="ranged"><img src="res/img/ranged.png"> Ranged</a></li>
-						<li><a id="prayer"><img src="res/img/prayer.png"> Prayer</a></li>
-						<li><a id="magic"><img src="res/img/magic.png"> Magic</a></li>
-						<li><a id="cooking"><img src="res/img/cooking.png"> Cooking</a></li>
-						<li><a id="woodcutting"><img src="res/img/woodcutting.png"> Woodcutting</a></li>
-						<li><a id="fletching"><img src="res/img/fletching.png"> Fletching</a></li>
-						<li><a id="fishing"><img src="res/img/fishing.png"> Fishing</a></li>
-						<li><a id="firemaking"><img src="res/img/firemaking.png"> Firemaking</a></li>
-						<li><a id="crafting"><img src="res/img/crafting.png"> Crafting</a></li>
-						<li><a id="smithing"><img src="res/img/smithing.png"> Smithing</a></li>
-						<li><a id="mining"><img src="res/img/mining.png"> Mining</a></li>
-						<li><a id="herblore"><img src="res/img/herblore.png"> Herblore</a></li>
-						<li><a id="agility"><img src="res/img/agility.png"> Agility</a></li>
-						<li><a id="thieving"><img src="res/img/thieving.png"> Thieving</a></li>
-						<li><a id="farming"><img src="res/img/farming.png"> Farming</a></li>
-						<li><a id="slayer"><img src="res/img/slayer.png"> Slayer</a></li>
-						<li><a id="runecrafting"><img src="res/img/runecrafting.png"> Runecrafting</a></li>
-						<li><a id="hunter"><img src="res/img/hunter.png"> Hunter</a></li>
-						<li><a id="construction"><img src="res/img/construction.png"> Construction</a></li>
-						<li><a id="summoning"><img src="res/img/summoning.png"> Summoning</a></li>
-						<li><a id="dungeoneering"><img src="res/img/dungeoneering.png"> Dungeoneering</a></li>
-						<li><a id="divination"><img src="res/img/divination.png"> Divination</a></li>
-					</ul>
-				</div>
-				<div class="menu stat"><a>Minigames</a>
-					<ul>
-						<li><a id="bounty_hunter"><img src="res/img/bounty_hunter.png"> Bounty Hunter</a></li>
-						<li><a id="bounty_hunter_rouges"><img src="res/img/bounty_hunter_rouges.png"> Bounty Hunter Rouges</a></li>
-						<li><a id="dominion_tower"><img src="res/img/dominion_tower.png"> Dominion Tower</a></li>
-						<li><a id="crucible"><img src="res/img/crucible.png"> Crucible</a></li>
-						<li><a id="castle_wars"><img src="res/img/castle_wars.png"> Castle Wars</a></li>
-						<li><a id="BA_attackers"><img src="res/img/ba_attackers.png"> BA Attackers</a></li>
-						<li><a id="BA_defenders"><img src="res/img/ba_defenders.png"> BA Defenders</a></li>
-						<li><a id="BA_collectors"><img src="res/img/ba_collectors.png"> BA Collectors</a></li>
-						<li><a id="BA_healers"><img src="res/img/ba_healers.png"> BA Healers</a></li>
-						<li><a id="duel_tournaments"><img src="res/img/duel_tournaments.png"> Duel Tournaments</a></li>
-						<li><a id="mobilising_armies"><img src="res/img/mobilising_armies.png"> Mobilising Armies</a></li>
-						<li><a id="conquest"><img src="res/img/conquest.png"> Conquest</a></li>
-						<li><a id="fist_of_guthix"><img src="res/img/fist_of_guthix.png"> Fist Of Guthix</a></li>
-						<li><a id="GG_resource"><img src="res/img/gg_resource.png"> GG Resource</a></li>
-						<li><a id="GG_athletics"><img src="res/img/gg_athletics.png"> GG Athletics</a></li>
-						<li><a id="heist_guard"><img src="res/img/heist_guard.png"> Heist Guard</a></li>
-						<li><a id="heist_robber"><img src="res/img/heist_robber.png"> Heist Robber</a></li>
-						<li><a id="CFP"><img src="res/img/cfp.png"> CFP</a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hiscores</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="res/styles.css" />
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans' type='text/css' />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="res/scripts.js"></script>
+</head>
+<body>
 
-		<div id="content">
-			<table id="tableHiscores">
-				<thead></thead>
-				<tbody></tbody>
-			</table>
+<header>
+	<nav>
+		<div class="menu clan"><a>Clan</a>
+			<ul>
+				<li><a game="eoc" ml="rsportugal">CPRS EoC</a></li>
+				<li><a game="osrs" ml="rsportugal">CPRS OSRS</a></li>
+				<li><a game="eoc" ml="playfun">PlayFun</a></li>
+				<li><a game="eoc" ml="pros">PROS Test</a></li>
+			</ul>
 		</div>
+		<div class="menu stat"><a>Skills</a>
+			<ul>
+				<li><a id="attack"><img src="res/img/attack.png"> Attack</a></li>
+				<li><a id="defence"><img src="res/img/defence.png"> Defence</a></li>
+				<li><a id="strength"><img src="res/img/strength.png"> Strength</a></li>
+				<li><a id="constitution"><img src="res/img/constitution.png"> Constitution</a></li>
+				<li><a id="ranged"><img src="res/img/ranged.png"> Ranged</a></li>
+				<li><a id="prayer"><img src="res/img/prayer.png"> Prayer</a></li>
+				<li><a id="magic"><img src="res/img/magic.png"> Magic</a></li>
+				<li><a id="cooking"><img src="res/img/cooking.png"> Cooking</a></li>
+				<li><a id="woodcutting"><img src="res/img/woodcutting.png"> Woodcutting</a></li>
+				<li><a id="fletching"><img src="res/img/fletching.png"> Fletching</a></li>
+				<li><a id="fishing"><img src="res/img/fishing.png"> Fishing</a></li>
+				<li><a id="firemaking"><img src="res/img/firemaking.png"> Firemaking</a></li>
+				<li><a id="crafting"><img src="res/img/crafting.png"> Crafting</a></li>
+				<li><a id="smithing"><img src="res/img/smithing.png"> Smithing</a></li>
+				<li><a id="mining"><img src="res/img/mining.png"> Mining</a></li>
+				<li><a id="herblore"><img src="res/img/herblore.png"> Herblore</a></li>
+				<li><a id="agility"><img src="res/img/agility.png"> Agility</a></li>
+				<li><a id="thieving"><img src="res/img/thieving.png"> Thieving</a></li>
+				<li><a id="farming"><img src="res/img/farming.png"> Farming</a></li>
+				<li><a id="slayer"><img src="res/img/slayer.png"> Slayer</a></li>
+				<li><a id="runecrafting"><img src="res/img/runecrafting.png"> Runecrafting</a></li>
+				<li><a id="hunter"><img src="res/img/hunter.png"> Hunter</a></li>
+				<li><a id="construction"><img src="res/img/construction.png"> Construction</a></li>
+				<li><a id="summoning"><img src="res/img/summoning.png"> Summoning</a></li>
+				<li><a id="dungeoneering"><img src="res/img/dungeoneering.png"> Dungeoneering</a></li>
+				<li><a id="divination"><img src="res/img/divination.png"> Divination</a></li>
+				<li><a id="invention"><img src="res/img/invention.png"> Invention</a></li>
+			</ul>
+		</div>
+		<div class="menu stat"><a>Minigames</a>
+			<ul>
+				<li><a id="bounty_hunter"><img src="res/img/bounty_hunter.png"> Bounty Hunter</a></li>
+				<li><a id="bounty_hunter_rouges"><img src="res/img/bounty_hunter_rouges.png"> Bounty Hunter Rouges</a></li>
+				<li><a id="dominion_tower"><img src="res/img/dominion_tower.png"> Dominion Tower</a></li>
+				<li><a id="crucible"><img src="res/img/crucible.png"> Crucible</a></li>
+				<li><a id="castle_wars"><img src="res/img/castle_wars.png"> Castle Wars</a></li>
+				<li><a id="BA_attackers"><img src="res/img/ba_attackers.png"> BA Attackers</a></li>
+				<li><a id="BA_defenders"><img src="res/img/ba_defenders.png"> BA Defenders</a></li>
+				<li><a id="BA_collectors"><img src="res/img/ba_collectors.png"> BA Collectors</a></li>
+				<li><a id="BA_healers"><img src="res/img/ba_healers.png"> BA Healers</a></li>
+				<li><a id="duel_tournaments"><img src="res/img/duel_tournaments.png"> Duel Tournaments</a></li>
+				<li><a id="mobilising_armies"><img src="res/img/mobilising_armies.png"> Mobilising Armies</a></li>
+				<li><a id="conquest"><img src="res/img/conquest.png"> Conquest</a></li>
+				<li><a id="fist_of_guthix"><img src="res/img/fist_of_guthix.png"> Fist Of Guthix</a></li>
+				<li><a id="GG_resource"><img src="res/img/gg_resource.png"> GG Resource</a></li>
+				<li><a id="GG_athletics"><img src="res/img/gg_athletics.png"> GG Athletics</a></li>
+				<li><a id="heist_guard"><img src="res/img/heist_guard.png"> Heist Guard</a></li>
+				<li><a id="heist_robber"><img src="res/img/heist_robber.png"> Heist Robber</a></li>
+				<li><a id="CFP"><img src="res/img/cfp.png"> CFP</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
 
-		<footer></footer>
-	</body>
-</html>
+<main>
+	<table id="tableHiscores">
+		<thead></thead>
+		<tbody></tbody>
+	</table>
+</main>
+
+<footer></footer>
