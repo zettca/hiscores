@@ -1,16 +1,17 @@
 html, body, div, span, a, img, ins, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, footer, header, menu, nav { margin: 0; padding: 0; border: 0; }
 
 body{
-	background-color: #222222;
-	font-family: 'Open Sans', 'Trebuchet MS', 'Lucida sans', Arial;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #222;
 }
 
 header{
 	top: 0px;
-	height: 99%;
+	height: 100%;
 	float: left;
 	position: fixed;
-	margin: 20px 0px;
+	margin-top: 20px;
 }
 
 main{
@@ -26,86 +27,73 @@ footer{
 }
 
 a { cursor: pointer; }
-nav { width: 128px; }
-nav img{ width: 16px; }
+nav { width: 10em; }
+nav img{ width: 1.6em; }
 
 /* CLASSES AND OBJECTSES  */
 
 #tableHiscores{
 	width: 100%;
 	margin: 0 auto;
-	border: 2px solid #FFFFCC;
+	border: 2px solid #FFC;
 	border-radius: 6px;
 	border-spacing: 0;
-	box-shadow: 0px 0px 5px #FFFFFF;
+	box-shadow: 0px 0px 5px #FFF;
 }
 
-#tableHiscores thead img{ height: 26px; } /* Skill Logo */
-#tableHiscores tbody img{ height: 42px; } /* Avatars */
+#tableHiscores thead img{ height: 24px; } /* Skill Logo */
+#tableHiscores tbody img{ height: 38px; } /* Avatars */
 
-#tableHiscores td, #tableHiscores th{
-	padding: 5px 0px;
+#tableHiscores td{
+	font-size: 1.2em;
 	text-align: center;
 }
 
-#tableHiscores td{
-	font-size: 16px;
-}
-
 #tableHiscores th{
+	padding: 4px 0;
+	font-size: 1.2em;
 	border-top: none;
+	text-align: center;
 	background-color: #FAFAFA;
 }
 
-#tableHiscores tbody td a{
-	color: #000000;
+#tableHiscores td a{
+	color: #000;
 	text-decoration: none;
 }
 
-#tableHiscores tbody tr{
-	height: 40px;
-	font-size: 14px;
-}
-
-#tableHiscores tbody tr td:first-child{
-	font-size: 18px;
-}
-
-#tableHiscores thead th:nth-child(2){
+#tableHiscores th:nth-child(2){
 	text-align: left;
-	padding-left: 20px;
+	padding-left: 1em;
 }
 
-#tableHiscores tbody tr td:nth-child(3){
-	text-align: left;
-	padding-left: 10px;
-}
-
-#tableHiscores tbody tr td:last-child{
+#tableHiscores th:last-child{
 	text-align: right;
-	padding-right: 48px;
+	padding-right: 4.1em;
 }
 
-#tableHiscores tbody tr:nth-child(2n){
-	background-color: #E9E9E9;
+#tableHiscores td:first-child{
+	font-size: 1.3em;
 }
 
-#tableHiscores tbody tr:nth-child(2n+1){
-	background-color: #E0E0E0;
+#tableHiscores td:nth-child(3){
+	text-align: left;
 }
 
-#tableHiscores tbody tr:hover{
-	background-color: #EBE8C9 !important;
+#tableHiscores td:last-child{
+	text-align: right;
+	padding-right: 4em;
 }
 
-#tableHiscores .userStats{
-	display: none;
-}
+#tableHiscores tbody tr:nth-child(2n){ background-color: #E9E9E9; }
+#tableHiscores tbody tr:nth-child(2n+1){ background-color: #E0E0E0; }
+#tableHiscores tbody tr:hover{ background-color: #EBE8C9 !important; }
+
 
 /* ########################################## */
 
 .menu{
-	font-size: 16px;
+	font-size: 1.1em;
 	text-align: center;
 	position: relative;
 	margin-bottom: 20px;
@@ -114,9 +102,7 @@ nav img{ width: 16px; }
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
-.menu:hover {
-	background-color: #CCCCCC;
-}
+.menu:hover { background-color: #CCC; }
 .menu a {
 	z-index: 999;
 	display: block; padding: 15px 22px;
@@ -129,18 +115,15 @@ nav img{ width: 16px; }
 	padding: 0px;
 	z-index: 9999;
 	border-radius: 0px 0px 5px 5px;
-	background-color: #EEEEEE;
+	background-color: #EEE;
 }
 	.menu li {
 		float: none;
-		font-size: 10px;
+		font-size: 0.7em;
 		text-align: left;
 	}
 		.menu li a {
-			color: #333333;
+			color: #333;
 			padding: 8px 10px;
 		}	
-			.menu li a:hover {
-				background-color: #EBE8C9;
-			}
-			
+			.menu li a:hover { background-color: #EBE8C9; }
