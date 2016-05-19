@@ -23,21 +23,16 @@ $(document).ready(function(){
 	$(".stat a").on("click", function(){
 		var id = $(this).attr("id");
 		var type = $(this).parent().parent().siblings("a").html();
-		if (id){
-			if (type=="Skills")
-				createTable(id,true);
-			else if (type=="Minigames")
-				createTable(id,false)
-		}
+		if (id) createTable(id, type=="Skills");
 	});
 
 });
 
-String.prototype.capitalize = function() {
+String.prototype.capitalize = function(){
 	return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
 };
 
-function getLevel(exp){
+function getVLevel(exp){
 	var xp=0;
 	if (exp<0 || exp>200000000) return -1;
 
@@ -57,14 +52,13 @@ function setMemberlist(ml, game){
 	var ml = ml.replace("-","/").replace("_","/");
 	var url = "json/"+game+"/"+ml+".json";
 	$.ajax({
-		async: false,
 		type: "GET",
 		url: url,
 		dataType: "json",
 		success: function (json){
 			console.log("opening file "+url);
 			JSONE = json;
-			createTable("overall",true);
+			createTable("overall", true);
 		},
 	});
 }
@@ -74,26 +68,30 @@ function createTable(stat, isSkill){
 	var json = JSONE.slice();
 	var statName = stat.replace(/_/g, " ").capitalize();
 
-	if (!json[0][stat])
-		throw (stat+" isn't a valid stat.");
+	if (!json[0][stat]) throw (stat+" isn't a valid stat.");
 
-	json.sort(function(p1,p2){ if (parseInt(p1[stat].rank)<1) return 1; if (parseInt(p2[stat].rank)<1) return -1; return parseInt(p1[stat].rank)-parseInt(p2[stat].rank); });
+	json.sort(function(p1,p2){
+		if (parseInt(p1[stat].rank)<1) return 1; if (parseInt(p2[stat].rank)<1) return -1;
+		return parseInt(p1[stat].rank)-parseInt(p2[stat].rank);
+	});
 	
 	$("#tableHiscores tbody").html("");
 	$.each(json, function (i, player){
 		var cellAvatar = '<td><img src="http://services.runescape.com/m=avatar-rs/'+player.rsn+'/chat.png" alt=""></td>';
 		var cellRSN = '<td><a class="rsn" title="'+player.rsn+'">'+player.rsn+'</a></td>';
 		var cellCombat = '<td>'+getCombat(player)+'</td>';
+
 		if (isSkill){
-			var cellStatLevel = '<td title="'+getLevel(player[stat].exp)+'">'+player[stat].level+'</td>';
+			var vLvl = getVLevel(player[stat].exp);
+			var cellStatLevel = '<td title="'+vLvl+'">'+player[stat].level+' </td>';
 			var cellStatExp = "<td>"+player[stat].exp+"</td>";
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatLevel+cellStatExp+"</tr>";
-		}
-		else{
+		} else{
 			var cellStatRank = "<td></td>";
 			var cellStatScore = "<td>"+player[stat].score+"</td>";
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatScore+"</tr>";
 		}
+
 		if ((isSkill && player[stat].level>1) || player[stat].rank > 0){
 			$("#tableHiscores tbody").append(rowContent);
 			x++;
@@ -105,5 +103,6 @@ function createTable(stat, isSkill){
 	var rowHeadSkill = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Level</th><th>Experience</th></tr>';
 	var rowHeadMG = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Score</th></tr>';
 	var rowInvalid = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">There are no members to display</th></tr>';
+	
 	$("#tableHiscores thead").html((x>0) ? ((isSkill) ? rowHeadSkill : rowHeadMG) : rowInvalid);
 }
