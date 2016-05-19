@@ -31,7 +31,6 @@ nav img{ width: 16px; }
 
 /* CLASSES AND OBJECTSES  */
 
-
 #tableHiscores{
 	width: 100%;
 	margin: 0 auto;
@@ -144,3 +143,4 @@ nav img{ width: 16px; }
 			.menu li a:hover {
 				background-color: #EBE8C9;
 			}
+			

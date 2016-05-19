@@ -34,13 +34,11 @@
 			$JSONE = "[";
 			while(!feof($fileText)){
 				$rsn = str_replace(" ", "_",substr(fgets($fileText), 0, -1));
-				if ($rsn)
-					$JSONE .= getPlayerStats($rsn).",";
+				if ($rsn) $JSONE .= getPlayerStats($rsn).",";
 			}
 			$JSONE = substr($JSONE, 0, -1) . "]";
 			fclose($fileText);
 			file_put_contents("json/$game/$ml.json", $JSONE);
-			//echo $JSONE;
 			echo "Update on $ml sucessful. Took ".number_format((float)microtime(true)-$startTime,4)." seconds.";
 		} else echo "$ml isn't a valid memberlist";
 	}
@@ -50,9 +48,7 @@
 		$list = explode(",", "$dudes");
 		if (count($list) > 0){ // has users to checkz
 			$startTime = microtime(true);
-			foreach ($list as $rsn) {
-				echo getPlayerStats($rsn)."<br/>";
-			}
+			foreach ($list as $rsn) echo getPlayerStats($rsn)."<br/>";
 			echo "GET on $dudes sucessful. Took ".number_format((float)microtime(true)-$startTime,4)." seconds.";
 		} else echo "$dudes isn't a valid username string";
 	}
