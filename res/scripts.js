@@ -43,8 +43,9 @@ function getVLevel(exp){
 }
 
 function getCombat(player){
-	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + 1.3 * Math.max(player.attack.level+player.strength.level,1.5*player.magic.level,1.5*player.ranged.level);
-	return parseInt(cmb/4);
+	var melee = 1.3 * Math.max(player.attack.level+player.strength.level, 1.5*player.magic.level, 1.5*player.ranged.level);
+	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + (player.summoning.level/2) + melee;
+	return Math.floor(cmb/4);
 }
 
 function setMemberlist(ml, game){
