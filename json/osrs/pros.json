@@ -1,0 +1,3200 @@
+[
+    {
+        "rsn": "Drumgun",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Zezima",
+        "overall": {
+            "rank": 352682,
+            "level": 1351,
+            "exp": 13707889
+        },
+        "attack": {
+            "rank": 410771,
+            "level": 74,
+            "exp": 1096290
+        },
+        "defence": {
+            "rank": 406835,
+            "level": 70,
+            "exp": 777635
+        },
+        "strength": {
+            "rank": 628751,
+            "level": 70,
+            "exp": 759874
+        },
+        "constitution": {
+            "rank": 628900,
+            "level": 70,
+            "exp": 812604
+        },
+        "ranged": {
+            "rank": 1109347,
+            "level": 44,
+            "exp": 55692
+        },
+        "prayer": {
+            "rank": 603759,
+            "level": 46,
+            "exp": 73438
+        },
+        "magic": {
+            "rank": 929808,
+            "level": 54,
+            "exp": 158027
+        },
+        "cooking": {
+            "rank": 201189,
+            "level": 77,
+            "exp": 1561131
+        },
+        "woodcutting": {
+            "rank": 206100,
+            "level": 75,
+            "exp": 1271704
+        },
+        "fletching": {
+            "rank": 358445,
+            "level": 68,
+            "exp": 657325
+        },
+        "fishing": {
+            "rank": 171024,
+            "level": 76,
+            "exp": 1444494
+        },
+        "firemaking": {
+            "rank": 95305,
+            "level": 84,
+            "exp": 3207767
+        },
+        "crafting": {
+            "rank": 593524,
+            "level": 51,
+            "exp": 117631
+        },
+        "smithing": {
+            "rank": 507077,
+            "level": 50,
+            "exp": 106506
+        },
+        "mining": {
+            "rank": 316041,
+            "level": 61,
+            "exp": 326872
+        },
+        "herblore": {
+            "rank": 411155,
+            "level": 45,
+            "exp": 67285
+        },
+        "agility": {
+            "rank": 295917,
+            "level": 65,
+            "exp": 449481
+        },
+        "thieving": {
+            "rank": 400691,
+            "level": 53,
+            "exp": 138369
+        },
+        "slayer": {
+            "rank": 360190,
+            "level": 65,
+            "exp": 491507
+        },
+        "farming": {
+            "rank": 368117,
+            "level": 40,
+            "exp": 40779
+        },
+        "runecrafting": {
+            "rank": 355513,
+            "level": 38,
+            "exp": 32003
+        },
+        "hunter": {
+            "rank": 418382,
+            "level": 37,
+            "exp": 28578
+        },
+        "construction": {
+            "rank": 429676,
+            "level": 38,
+            "exp": 32897
+        }
+    },
+    {
+        "rsn": "S_U_O_M_I",
+        "overall": {
+            "rank": 359913,
+            "level": 1340,
+            "exp": 33543050
+        },
+        "attack": {
+            "rank": 434607,
+            "level": 72,
+            "exp": 915662
+        },
+        "defence": {
+            "rank": 390282,
+            "level": 71,
+            "exp": 814502
+        },
+        "strength": {
+            "rank": 379461,
+            "level": 81,
+            "exp": 2245218
+        },
+        "constitution": {
+            "rank": 502523,
+            "level": 76,
+            "exp": 1339384
+        },
+        "ranged": {
+            "rank": 842783,
+            "level": 59,
+            "exp": 248036
+        },
+        "prayer": {
+            "rank": 345443,
+            "level": 60,
+            "exp": 285698
+        },
+        "magic": {
+            "rank": 556843,
+            "level": 69,
+            "exp": 693747
+        },
+        "cooking": {
+            "rank": 593973,
+            "level": 59,
+            "exp": 249675
+        },
+        "woodcutting": {
+            "rank": 24864,
+            "level": 98,
+            "exp": 13034383
+        },
+        "fletching": {
+            "rank": 66659,
+            "level": 93,
+            "exp": 7463102
+        },
+        "fishing": {
+            "rank": 53920,
+            "level": 89,
+            "exp": 4869516
+        },
+        "firemaking": {
+            "rank": 1020283,
+            "level": 30,
+            "exp": 13840
+        },
+        "crafting": {
+            "rank": 845439,
+            "level": 40,
+            "exp": 40552
+        },
+        "smithing": {
+            "rank": 733239,
+            "level": 40,
+            "exp": 40179
+        },
+        "mining": {
+            "rank": 658683,
+            "level": 50,
+            "exp": 102132
+        },
+        "herblore": {
+            "rank": 459571,
+            "level": 42,
+            "exp": 46171
+        },
+        "agility": {
+            "rank": 295571,
+            "level": 65,
+            "exp": 449620
+        },
+        "thieving": {
+            "rank": 621240,
+            "level": 40,
+            "exp": 37237
+        },
+        "slayer": {
+            "rank": 374997,
+            "level": 64,
+            "exp": 441189
+        },
+        "farming": {
+            "rank": 235694,
+            "level": 55,
+            "exp": 168797
+        },
+        "runecrafting": {
+            "rank": 379034,
+            "level": 37,
+            "exp": 28634
+        },
+        "hunter": {
+            "rank": 483315,
+            "level": 25,
+            "exp": 7929
+        },
+        "construction": {
+            "rank": 583021,
+            "level": 25,
+            "exp": 7847
+        }
+    },
+    {
+        "rsn": "Jake",
+        "overall": {
+            "rank": 330840,
+            "level": 1382,
+            "exp": 99679272
+        },
+        "attack": {
+            "rank": 682708,
+            "level": 60,
+            "exp": 301758
+        },
+        "defence": {
+            "rank": 870994,
+            "level": 45,
+            "exp": 63401
+        },
+        "strength": {
+            "rank": 302419,
+            "level": 85,
+            "exp": 3523347
+        },
+        "constitution": {
+            "rank": 468159,
+            "level": 77,
+            "exp": 1549366
+        },
+        "ranged": {
+            "rank": 597156,
+            "level": 70,
+            "exp": 814155
+        },
+        "prayer": {
+            "rank": 484953,
+            "level": 52,
+            "exp": 124244
+        },
+        "magic": {
+            "rank": 179533,
+            "level": 91,
+            "exp": 6069537
+        },
+        "cooking": {
+            "rank": 11938,
+            "level": 99,
+            "exp": 14995955
+        },
+        "woodcutting": {
+            "rank": 571,
+            "level": 99,
+            "exp": 41396903
+        },
+        "fletching": {
+            "rank": 40216,
+            "level": 99,
+            "exp": 13037812
+        },
+        "fishing": {
+            "rank": 3556,
+            "level": 99,
+            "exp": 16017675
+        },
+        "firemaking": {
+            "rank": 504971,
+            "level": 50,
+            "exp": 108980
+        },
+        "crafting": {
+            "rank": 441763,
+            "level": 57,
+            "exp": 206918
+        },
+        "smithing": {
+            "rank": 445080,
+            "level": 51,
+            "exp": 121131
+        },
+        "mining": {
+            "rank": 688798,
+            "level": 49,
+            "exp": 92439
+        },
+        "herblore": {
+            "rank": 415457,
+            "level": 45,
+            "exp": 65595
+        },
+        "agility": {
+            "rank": 529134,
+            "level": 51,
+            "exp": 121399
+        },
+        "thieving": {
+            "rank": 316792,
+            "level": 53,
+            "exp": 148510
+        },
+        "slayer": {
+            "rank": 288850,
+            "level": 71,
+            "exp": 859256
+        },
+        "farming": {
+            "rank": 345014,
+            "level": 43,
+            "exp": 50951
+        },
+        "runecrafting": {
+            "rank": 525253,
+            "level": 26,
+            "exp": 8920
+        },
+        "hunter": {
+            "rank": 591045,
+            "level": 9,
+            "exp": 1020
+        },
+        "construction": {
+            "rank": 720242,
+            "level": 1,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Simon",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Kingduffy",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Rip_Bector",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Zarfot",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Supersongoko",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Sael",
+        "overall": {
+            "rank": -1,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "defence": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "strength": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "constitution": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "ranged": {
+            "rank": 1998227,
+            "level": 1,
+            "exp": 72
+        },
+        "prayer": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "magic": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "cooking": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "woodcutting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "fletching": {
+            "rank": 1368802,
+            "level": 1,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "firemaking": {
+            "rank": 1526197,
+            "level": 12,
+            "exp": 1600
+        },
+        "crafting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "smithing": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "mining": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "herblore": {
+            "rank": 1096502,
+            "level": 1,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 1427906,
+            "level": 1,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 1355723,
+            "level": 4,
+            "exp": 288
+        },
+        "slayer": {
+            "rank": 1342142,
+            "level": 1,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 920570,
+            "level": 1,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 959603,
+            "level": 1,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 897775,
+            "level": 1,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 792840,
+            "level": 1,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Eiwa",
+        "overall": {
+            "rank": 841268,
+            "level": 775,
+            "exp": 2779384
+        },
+        "attack": {
+            "rank": 1093777,
+            "level": 47,
+            "exp": 78677
+        },
+        "defence": {
+            "rank": 1230597,
+            "level": 36,
+            "exp": 25327
+        },
+        "strength": {
+            "rank": 1354818,
+            "level": 43,
+            "exp": 53731
+        },
+        "constitution": {
+            "rank": 1300241,
+            "level": 46,
+            "exp": 71023
+        },
+        "ranged": {
+            "rank": 1573313,
+            "level": 20,
+            "exp": 4476
+        },
+        "prayer": {
+            "rank": 1134655,
+            "level": 29,
+            "exp": 12530
+        },
+        "magic": {
+            "rank": 936613,
+            "level": 54,
+            "exp": 151537
+        },
+        "cooking": {
+            "rank": 686315,
+            "level": 53,
+            "exp": 147528
+        },
+        "woodcutting": {
+            "rank": 790242,
+            "level": 54,
+            "exp": 165616
+        },
+        "fletching": {
+            "rank": 674227,
+            "level": 41,
+            "exp": 43254
+        },
+        "fishing": {
+            "rank": 665640,
+            "level": 54,
+            "exp": 160425
+        },
+        "firemaking": {
+            "rank": 138513,
+            "level": 78,
+            "exp": 1633902
+        },
+        "crafting": {
+            "rank": 1182319,
+            "level": 29,
+            "exp": 12279
+        },
+        "smithing": {
+            "rank": 924682,
+            "level": 34,
+            "exp": 20643
+        },
+        "mining": {
+            "rank": 529864,
+            "level": 53,
+            "exp": 150302
+        },
+        "herblore": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "agility": {
+            "rank": 1033568,
+            "level": 31,
+            "exp": 15827
+        },
+        "thieving": {
+            "rank": 686719,
+            "level": 34,
+            "exp": 22086
+        },
+        "slayer": {
+            "rank": 881230,
+            "level": 26,
+            "exp": 9173
+        },
+        "farming": {
+            "rank": 820878,
+            "level": 1,
+            "exp": 48
+        },
+        "runecrafting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "hunter": {
+            "rank": 726985,
+            "level": 9,
+            "exp": 1000
+        },
+        "construction": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        }
+    },
+    {
+        "rsn": "Broa",
+        "overall": {
+            "rank": 651859,
+            "level": 962,
+            "exp": 3363733
+        },
+        "attack": {
+            "rank": 711335,
+            "level": 60,
+            "exp": 285956
+        },
+        "defence": {
+            "rank": 851652,
+            "level": 45,
+            "exp": 66296
+        },
+        "strength": {
+            "rank": 719193,
+            "level": 66,
+            "exp": 546010
+        },
+        "constitution": {
+            "rank": 824365,
+            "level": 63,
+            "exp": 372258
+        },
+        "ranged": {
+            "rank": 897165,
+            "level": 55,
+            "exp": 169501
+        },
+        "prayer": {
+            "rank": 672146,
+            "level": 45,
+            "exp": 61873
+        },
+        "magic": {
+            "rank": 834379,
+            "level": 57,
+            "exp": 211436
+        },
+        "cooking": {
+            "rank": 467906,
+            "level": 66,
+            "exp": 533698
+        },
+        "woodcutting": {
+            "rank": 1077172,
+            "level": 43,
+            "exp": 55231
+        },
+        "fletching": {
+            "rank": 620431,
+            "level": 46,
+            "exp": 74405
+        },
+        "fishing": {
+            "rank": 1407729,
+            "level": 23,
+            "exp": 6505
+        },
+        "firemaking": {
+            "rank": 1279671,
+            "level": 20,
+            "exp": 4540
+        },
+        "crafting": {
+            "rank": 805123,
+            "level": 41,
+            "exp": 45381
+        },
+        "smithing": {
+            "rank": 206914,
+            "level": 66,
+            "exp": 497716
+        },
+        "mining": {
+            "rank": 677297,
+            "level": 49,
+            "exp": 99917
+        },
+        "herblore": {
+            "rank": 781598,
+            "level": 17,
+            "exp": 3318
+        },
+        "agility": {
+            "rank": 600895,
+            "level": 48,
+            "exp": 83267
+        },
+        "thieving": {
+            "rank": 593014,
+            "level": 41,
+            "exp": 42885
+        },
+        "slayer": {
+            "rank": 512931,
+            "level": 55,
+            "exp": 167674
+        },
+        "farming": {
+            "rank": 746589,
+            "level": 9,
+            "exp": 1000
+        },
+        "runecrafting": {
+            "rank": 347974,
+            "level": 39,
+            "exp": 34210
+        },
+        "hunter": {
+            "rank": 902322,
+            "level": 1,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 684134,
+            "level": 7,
+            "exp": 656
+        }
+    },
+    {
+        "rsn": "Asheka",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Akirahh",
+        "overall": {
+            "rank": -1,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "defence": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "strength": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "constitution": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "ranged": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "prayer": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "magic": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "cooking": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "woodcutting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "fletching": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "fishing": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "firemaking": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "crafting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "smithing": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "mining": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "herblore": {
+            "rank": 1862065,
+            "level": 1,
+            "exp": 0
+        },
+        "agility": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "thieving": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "slayer": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "farming": {
+            "rank": 1729082,
+            "level": 1,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 1768012,
+            "level": 1,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 1720071,
+            "level": 1,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 1641429,
+            "level": 1,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "PVM_WazZuP",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Articpine",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Eagledelt",
+        "overall": {
+            "rank": 194410,
+            "level": 1600,
+            "exp": 32801122
+        },
+        "attack": {
+            "rank": 233762,
+            "level": 80,
+            "exp": 2169553
+        },
+        "defence": {
+            "rank": 251739,
+            "level": 78,
+            "exp": 1793128
+        },
+        "strength": {
+            "rank": 323333,
+            "level": 84,
+            "exp": 3167242
+        },
+        "constitution": {
+            "rank": 235535,
+            "level": 89,
+            "exp": 5238837
+        },
+        "ranged": {
+            "rank": 137987,
+            "level": 94,
+            "exp": 7955351
+        },
+        "prayer": {
+            "rank": 110713,
+            "level": 74,
+            "exp": 1099845
+        },
+        "magic": {
+            "rank": 381578,
+            "level": 77,
+            "exp": 1594992
+        },
+        "cooking": {
+            "rank": 342263,
+            "level": 70,
+            "exp": 769593
+        },
+        "woodcutting": {
+            "rank": 617946,
+            "level": 60,
+            "exp": 276367
+        },
+        "fletching": {
+            "rank": 612109,
+            "level": 47,
+            "exp": 81723
+        },
+        "fishing": {
+            "rank": 141298,
+            "level": 79,
+            "exp": 1852000
+        },
+        "firemaking": {
+            "rank": 351105,
+            "level": 60,
+            "exp": 277700
+        },
+        "crafting": {
+            "rank": 258609,
+            "level": 66,
+            "exp": 514966
+        },
+        "smithing": {
+            "rank": 153357,
+            "level": 70,
+            "exp": 762965
+        },
+        "mining": {
+            "rank": 200947,
+            "level": 68,
+            "exp": 623469
+        },
+        "herblore": {
+            "rank": 315355,
+            "level": 53,
+            "exp": 147501
+        },
+        "agility": {
+            "rank": 351266,
+            "level": 60,
+            "exp": 291141
+        },
+        "thieving": {
+            "rank": 113877,
+            "level": 72,
+            "exp": 899597
+        },
+        "slayer": {
+            "rank": 190105,
+            "level": 78,
+            "exp": 1689409
+        },
+        "farming": {
+            "rank": 132548,
+            "level": 70,
+            "exp": 751779
+        },
+        "runecrafting": {
+            "rank": 267189,
+            "level": 45,
+            "exp": 64395
+        },
+        "hunter": {
+            "rank": 180523,
+            "level": 66,
+            "exp": 503623
+        },
+        "construction": {
+            "rank": 183977,
+            "level": 60,
+            "exp": 275946
+        }
+    },
+    {
+        "rsn": "Rui_Vieir2",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "DNA_Legend",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Marcoktm_pt",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Rsn_Expert",
+        "overall": {
+            "rank": 35728,
+            "level": 1980,
+            "exp": 205786766
+        },
+        "attack": {
+            "rank": 17462,
+            "level": 99,
+            "exp": 19191319
+        },
+        "defence": {
+            "rank": 16592,
+            "level": 99,
+            "exp": 17332937
+        },
+        "strength": {
+            "rank": 12967,
+            "level": 99,
+            "exp": 22407491
+        },
+        "constitution": {
+            "rank": 19471,
+            "level": 99,
+            "exp": 26733232
+        },
+        "ranged": {
+            "rank": 45529,
+            "level": 99,
+            "exp": 15525767
+        },
+        "prayer": {
+            "rank": 95799,
+            "level": 75,
+            "exp": 1244057
+        },
+        "magic": {
+            "rank": 82671,
+            "level": 96,
+            "exp": 10161495
+        },
+        "cooking": {
+            "rank": 78902,
+            "level": 99,
+            "exp": 13034471
+        },
+        "woodcutting": {
+            "rank": 235592,
+            "level": 74,
+            "exp": 1096508
+        },
+        "fletching": {
+            "rank": 39008,
+            "level": 99,
+            "exp": 13039424
+        },
+        "fishing": {
+            "rank": 20016,
+            "level": 99,
+            "exp": 13034492
+        },
+        "firemaking": {
+            "rank": 286028,
+            "level": 63,
+            "exp": 405321
+        },
+        "crafting": {
+            "rank": 16025,
+            "level": 99,
+            "exp": 13034511
+        },
+        "smithing": {
+            "rank": 7374,
+            "level": 99,
+            "exp": 13036290
+        },
+        "mining": {
+            "rank": 34899,
+            "level": 85,
+            "exp": 3260990
+        },
+        "herblore": {
+            "rank": 42841,
+            "level": 84,
+            "exp": 3088582
+        },
+        "agility": {
+            "rank": 145351,
+            "level": 71,
+            "exp": 855254
+        },
+        "thieving": {
+            "rank": 105978,
+            "level": 72,
+            "exp": 919989
+        },
+        "slayer": {
+            "rank": 7832,
+            "level": 99,
+            "exp": 14999730
+        },
+        "farming": {
+            "rank": 69593,
+            "level": 80,
+            "exp": 2056986
+        },
+        "runecrafting": {
+            "rank": 98602,
+            "level": 63,
+            "exp": 380096
+        },
+        "hunter": {
+            "rank": 149354,
+            "level": 68,
+            "exp": 650407
+        },
+        "construction": {
+            "rank": 175264,
+            "level": 60,
+            "exp": 297417
+        }
+    },
+    {
+        "rsn": "So_Easy99",
+        "overall": {
+            "rank": 353068,
+            "level": 1350,
+            "exp": 30564341
+        },
+        "attack": {
+            "rank": 954796,
+            "level": 50,
+            "exp": 106202
+        },
+        "defence": {
+            "rank": 1887294,
+            "level": 10,
+            "exp": 1176
+        },
+        "strength": {
+            "rank": 317187,
+            "level": 85,
+            "exp": 3274373
+        },
+        "constitution": {
+            "rank": 333434,
+            "level": 84,
+            "exp": 2958307
+        },
+        "ranged": {
+            "rank": 196874,
+            "level": 90,
+            "exp": 5427838
+        },
+        "prayer": {
+            "rank": 489495,
+            "level": 52,
+            "exp": 123982
+        },
+        "magic": {
+            "rank": 232438,
+            "level": 86,
+            "exp": 3711915
+        },
+        "cooking": {
+            "rank": 568646,
+            "level": 60,
+            "exp": 287636
+        },
+        "woodcutting": {
+            "rank": 614464,
+            "level": 60,
+            "exp": 278090
+        },
+        "fletching": {
+            "rank": 64004,
+            "level": 94,
+            "exp": 7993615
+        },
+        "fishing": {
+            "rank": 509532,
+            "level": 60,
+            "exp": 285150
+        },
+        "firemaking": {
+            "rank": 343992,
+            "level": 60,
+            "exp": 279985
+        },
+        "crafting": {
+            "rank": 120246,
+            "level": 75,
+            "exp": 1220892
+        },
+        "smithing": {
+            "rank": 521531,
+            "level": 50,
+            "exp": 103459
+        },
+        "mining": {
+            "rank": 663821,
+            "level": 50,
+            "exp": 101574
+        },
+        "herblore": {
+            "rank": 248218,
+            "level": 58,
+            "exp": 233036
+        },
+        "agility": {
+            "rank": 466513,
+            "level": 55,
+            "exp": 166700
+        },
+        "thieving": {
+            "rank": 270748,
+            "level": 55,
+            "exp": 167802
+        },
+        "slayer": {
+            "rank": 265828,
+            "level": 72,
+            "exp": 958736
+        },
+        "farming": {
+            "rank": 204196,
+            "level": 60,
+            "exp": 276255
+        },
+        "runecrafting": {
+            "rank": 957998,
+            "level": 1,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 47435,
+            "level": 82,
+            "exp": 2607618
+        },
+        "construction": {
+            "rank": 791139,
+            "level": 1,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Wannabe_Nex",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Xefe",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Mafv",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    },
+    {
+        "rsn": "Natty_Gon",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        }
+    }
+]

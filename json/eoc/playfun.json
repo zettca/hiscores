@@ -1,1316 +1,1316 @@
 [
-  {
-    "rsn": "Sael",
-    "overall": {
-      "rank": 60167,
-      "level": 2589,
-      "exp": 506823176
+    {
+        "rsn": "Sael",
+        "overall": {
+            "rank": 36144,
+            "level": 2712,
+            "exp": 722272756
+        },
+        "attack": {
+            "rank": 58825,
+            "level": 99,
+            "exp": 23593366
+        },
+        "defence": {
+            "rank": 71072,
+            "level": 99,
+            "exp": 23709572
+        },
+        "strength": {
+            "rank": 47855,
+            "level": 99,
+            "exp": 27493293
+        },
+        "constitution": {
+            "rank": 54825,
+            "level": 99,
+            "exp": 46840277
+        },
+        "ranged": {
+            "rank": 50615,
+            "level": 99,
+            "exp": 33296100
+        },
+        "prayer": {
+            "rank": 40848,
+            "level": 99,
+            "exp": 16609757
+        },
+        "magic": {
+            "rank": 34211,
+            "level": 99,
+            "exp": 45703102
+        },
+        "cooking": {
+            "rank": 16344,
+            "level": 99,
+            "exp": 28976828
+        },
+        "woodcutting": {
+            "rank": 63898,
+            "level": 99,
+            "exp": 15984051
+        },
+        "fletching": {
+            "rank": 23936,
+            "level": 99,
+            "exp": 17836644
+        },
+        "fishing": {
+            "rank": 44007,
+            "level": 99,
+            "exp": 23468395
+        },
+        "firemaking": {
+            "rank": 40850,
+            "level": 99,
+            "exp": 19742233
+        },
+        "crafting": {
+            "rank": 61875,
+            "level": 99,
+            "exp": 14573248
+        },
+        "smithing": {
+            "rank": 42092,
+            "level": 99,
+            "exp": 16408548
+        },
+        "mining": {
+            "rank": 63563,
+            "level": 99,
+            "exp": 16309110
+        },
+        "herblore": {
+            "rank": 42578,
+            "level": 99,
+            "exp": 17601047
+        },
+        "agility": {
+            "rank": 37982,
+            "level": 99,
+            "exp": 15666570
+        },
+        "thieving": {
+            "rank": 24342,
+            "level": 99,
+            "exp": 39614592
+        },
+        "slayer": {
+            "rank": 28804,
+            "level": 112,
+            "exp": 50613966
+        },
+        "farming": {
+            "rank": 37371,
+            "level": 99,
+            "exp": 19192631
+        },
+        "runecrafting": {
+            "rank": 41233,
+            "level": 99,
+            "exp": 14966564
+        },
+        "hunter": {
+            "rank": 25788,
+            "level": 99,
+            "exp": 18514460
+        },
+        "construction": {
+            "rank": 28845,
+            "level": 99,
+            "exp": 17365625
+        },
+        "summoning": {
+            "rank": 40886,
+            "level": 99,
+            "exp": 15253887
+        },
+        "dungeoneering": {
+            "rank": 41283,
+            "level": 116,
+            "exp": 70853948
+        },
+        "divination": {
+            "rank": 24837,
+            "level": 99,
+            "exp": 19184443
+        },
+        "invention": {
+            "rank": 54676,
+            "level": 108,
+            "exp": 52900499
+        },
+        "bounty_hunter": {
+            "rank": -1,
+            "score": -1
+        },
+        "bounty_hunter_rouges": {
+            "rank": -1,
+            "score": -1
+        },
+        "dominion_tower": {
+            "rank": 90797,
+            "score": 321058
+        },
+        "crucible": {
+            "rank": -1,
+            "score": -1
+        },
+        "castle_wars": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_attackers": {
+            "rank": 73818,
+            "score": 905
+        },
+        "BA_defenders": {
+            "rank": 69651,
+            "score": 703
+        },
+        "BA_collectors": {
+            "rank": 70724,
+            "score": 799
+        },
+        "BA_healers": {
+            "rank": 114850,
+            "score": 706
+        },
+        "duel_tournaments": {
+            "rank": -1,
+            "score": -1
+        },
+        "mobilising_armies": {
+            "rank": -1,
+            "score": -1
+        },
+        "conquest": {
+            "rank": -1,
+            "score": -1
+        },
+        "fist_of_guthix": {
+            "rank": 649,
+            "score": 22321
+        },
+        "GG_resource": {
+            "rank": 2045,
+            "score": 700
+        },
+        "GG_athletics": {
+            "rank": 1738,
+            "score": 622
+        },
+        "we2": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_guard": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_robber": {
+            "rank": -1,
+            "score": -1
+        },
+        "CFP": {
+            "rank": 36411,
+            "score": 81
+        }
     },
-    "attack": {
-      "rank": 69865,
-      "level": 99,
-      "exp": 18821515
+    {
+        "rsn": "Awie",
+        "overall": {
+            "rank": 686653,
+            "level": 1089,
+            "exp": 10734242
+        },
+        "attack": {
+            "rank": 824423,
+            "level": 55,
+            "exp": 178253
+        },
+        "defence": {
+            "rank": 995652,
+            "level": 42,
+            "exp": 45572
+        },
+        "strength": {
+            "rank": 595026,
+            "level": 72,
+            "exp": 928877
+        },
+        "constitution": {
+            "rank": 663263,
+            "level": 69,
+            "exp": 712444
+        },
+        "ranged": {
+            "rank": 323277,
+            "level": 85,
+            "exp": 3441075
+        },
+        "prayer": {
+            "rank": 708169,
+            "level": 45,
+            "exp": 66912
+        },
+        "magic": {
+            "rank": 467924,
+            "level": 77,
+            "exp": 1543695
+        },
+        "cooking": {
+            "rank": 654058,
+            "level": 59,
+            "exp": 271731
+        },
+        "woodcutting": {
+            "rank": 976240,
+            "level": 44,
+            "exp": 58593
+        },
+        "fletching": {
+            "rank": 440302,
+            "level": 71,
+            "exp": 854225
+        },
+        "fishing": {
+            "rank": 403893,
+            "level": 73,
+            "exp": 1014209
+        },
+        "firemaking": {
+            "rank": 740020,
+            "level": 53,
+            "exp": 138424
+        },
+        "crafting": {
+            "rank": 406405,
+            "level": 67,
+            "exp": 548773
+        },
+        "smithing": {
+            "rank": 1078707,
+            "level": 26,
+            "exp": 9121
+        },
+        "mining": {
+            "rank": 924682,
+            "level": 41,
+            "exp": 42939
+        },
+        "herblore": {
+            "rank": 734126,
+            "level": 19,
+            "exp": 4150
+        },
+        "agility": {
+            "rank": 780537,
+            "level": 27,
+            "exp": 10056
+        },
+        "thieving": {
+            "rank": 476995,
+            "level": 53,
+            "exp": 148750
+        },
+        "slayer": {
+            "rank": 753481,
+            "level": 24,
+            "exp": 7139
+        },
+        "farming": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "runecrafting": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "hunter": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "construction": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "summoning": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "dungeoneering": {
+            "rank": 333078,
+            "level": 69,
+            "exp": 707796
+        },
+        "divination": {
+            "rank": -1,
+            "level": 1,
+            "exp": -1
+        },
+        "invention": {
+            "rank": -1,
+            "level": 0,
+            "exp": -1
+        },
+        "bounty_hunter": {
+            "rank": -1,
+            "score": -1
+        },
+        "bounty_hunter_rouges": {
+            "rank": -1,
+            "score": -1
+        },
+        "dominion_tower": {
+            "rank": -1,
+            "score": -1
+        },
+        "crucible": {
+            "rank": -1,
+            "score": -1
+        },
+        "castle_wars": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_attackers": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_defenders": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_collectors": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_healers": {
+            "rank": -1,
+            "score": -1
+        },
+        "duel_tournaments": {
+            "rank": -1,
+            "score": -1
+        },
+        "mobilising_armies": {
+            "rank": -1,
+            "score": -1
+        },
+        "conquest": {
+            "rank": -1,
+            "score": -1
+        },
+        "fist_of_guthix": {
+            "rank": -1,
+            "score": -1
+        },
+        "GG_resource": {
+            "rank": -1,
+            "score": -1
+        },
+        "GG_athletics": {
+            "rank": -1,
+            "score": -1
+        },
+        "we2": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_guard": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_robber": {
+            "rank": -1,
+            "score": -1
+        },
+        "CFP": {
+            "rank": -1,
+            "score": -1
+        }
     },
-    "defence": {
-      "rank": 76815,
-      "level": 99,
-      "exp": 18861452
+    {
+        "rsn": "Myan",
+        "overall": {
+            "rank": 124085,
+            "level": 2464,
+            "exp": 215595497
+        },
+        "attack": {
+            "rank": 270643,
+            "level": 90,
+            "exp": 5756690
+        },
+        "defence": {
+            "rank": 273792,
+            "level": 90,
+            "exp": 5772411
+        },
+        "strength": {
+            "rank": 306313,
+            "level": 90,
+            "exp": 5771745
+        },
+        "constitution": {
+            "rank": 249428,
+            "level": 97,
+            "exp": 11362852
+        },
+        "ranged": {
+            "rank": 212115,
+            "level": 97,
+            "exp": 11220724
+        },
+        "prayer": {
+            "rank": 179983,
+            "level": 96,
+            "exp": 9735590
+        },
+        "magic": {
+            "rank": 189961,
+            "level": 99,
+            "exp": 13403667
+        },
+        "cooking": {
+            "rank": 200212,
+            "level": 99,
+            "exp": 13036211
+        },
+        "woodcutting": {
+            "rank": 200057,
+            "level": 94,
+            "exp": 8324942
+        },
+        "fletching": {
+            "rank": 247641,
+            "level": 87,
+            "exp": 4001243
+        },
+        "fishing": {
+            "rank": 219779,
+            "level": 87,
+            "exp": 4124110
+        },
+        "firemaking": {
+            "rank": 213170,
+            "level": 94,
+            "exp": 8299549
+        },
+        "crafting": {
+            "rank": 152640,
+            "level": 90,
+            "exp": 5602308
+        },
+        "smithing": {
+            "rank": 123235,
+            "level": 99,
+            "exp": 13037990
+        },
+        "mining": {
+            "rank": 108350,
+            "level": 99,
+            "exp": 13338733
+        },
+        "herblore": {
+            "rank": 181844,
+            "level": 95,
+            "exp": 9426964
+        },
+        "agility": {
+            "rank": 125446,
+            "level": 90,
+            "exp": 5683219
+        },
+        "thieving": {
+            "rank": 123781,
+            "level": 90,
+            "exp": 5740467
+        },
+        "slayer": {
+            "rank": 130264,
+            "level": 99,
+            "exp": 13371344
+        },
+        "farming": {
+            "rank": 110323,
+            "level": 94,
+            "exp": 7998065
+        },
+        "runecrafting": {
+            "rank": 157664,
+            "level": 84,
+            "exp": 3161269
+        },
+        "hunter": {
+            "rank": 151569,
+            "level": 84,
+            "exp": 3134022
+        },
+        "construction": {
+            "rank": 121657,
+            "level": 90,
+            "exp": 5661240
+        },
+        "summoning": {
+            "rank": 119992,
+            "level": 99,
+            "exp": 13174793
+        },
+        "dungeoneering": {
+            "rank": 124292,
+            "level": 96,
+            "exp": 9921855
+        },
+        "divination": {
+            "rank": 146515,
+            "level": 84,
+            "exp": 3057425
+        },
+        "invention": {
+            "rank": 147683,
+            "level": 51,
+            "exp": 2476069
+        },
+        "bounty_hunter": {
+            "rank": -1,
+            "score": -1
+        },
+        "bounty_hunter_rouges": {
+            "rank": -1,
+            "score": -1
+        },
+        "dominion_tower": {
+            "rank": -1,
+            "score": -1
+        },
+        "crucible": {
+            "rank": -1,
+            "score": -1
+        },
+        "castle_wars": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_attackers": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_defenders": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_collectors": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_healers": {
+            "rank": -1,
+            "score": -1
+        },
+        "duel_tournaments": {
+            "rank": -1,
+            "score": -1
+        },
+        "mobilising_armies": {
+            "rank": -1,
+            "score": -1
+        },
+        "conquest": {
+            "rank": -1,
+            "score": -1
+        },
+        "fist_of_guthix": {
+            "rank": -1,
+            "score": -1
+        },
+        "GG_resource": {
+            "rank": -1,
+            "score": -1
+        },
+        "GG_athletics": {
+            "rank": 51921,
+            "score": 561
+        },
+        "we2": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_guard": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_robber": {
+            "rank": -1,
+            "score": -1
+        },
+        "CFP": {
+            "rank": 24063,
+            "score": 99
+        }
     },
-    "strength": {
-      "rank": 54401,
-      "level": 99,
-      "exp": 22665439
+    {
+        "rsn": "Supersongoko",
+        "overall": {
+            "rank": 1242,
+            "level": 2736,
+            "exp": 3526549267
+        },
+        "attack": {
+            "rank": 16054,
+            "level": 99,
+            "exp": 62055542
+        },
+        "defence": {
+            "rank": 27075,
+            "level": 99,
+            "exp": 62692998
+        },
+        "strength": {
+            "rank": 15923,
+            "level": 99,
+            "exp": 59180259
+        },
+        "constitution": {
+            "rank": 11810,
+            "level": 99,
+            "exp": 131297010
+        },
+        "ranged": {
+            "rank": 9602,
+            "level": 99,
+            "exp": 115796870
+        },
+        "prayer": {
+            "rank": 758,
+            "level": 99,
+            "exp": 200000000
+        },
+        "magic": {
+            "rank": 7688,
+            "level": 99,
+            "exp": 130903786
+        },
+        "cooking": {
+            "rank": 189,
+            "level": 99,
+            "exp": 200000000
+        },
+        "woodcutting": {
+            "rank": 2298,
+            "level": 99,
+            "exp": 109818681
+        },
+        "fletching": {
+            "rank": 840,
+            "level": 99,
+            "exp": 200000000
+        },
+        "fishing": {
+            "rank": 1839,
+            "level": 99,
+            "exp": 194376971
+        },
+        "firemaking": {
+            "rank": 970,
+            "level": 99,
+            "exp": 200000000
+        },
+        "crafting": {
+            "rank": 3677,
+            "level": 99,
+            "exp": 62589721
+        },
+        "smithing": {
+            "rank": 3486,
+            "level": 99,
+            "exp": 104159454
+        },
+        "mining": {
+            "rank": 3640,
+            "level": 99,
+            "exp": 118192956
+        },
+        "herblore": {
+            "rank": 2539,
+            "level": 99,
+            "exp": 112353540
+        },
+        "agility": {
+            "rank": 2725,
+            "level": 99,
+            "exp": 88315320
+        },
+        "thieving": {
+            "rank": 3096,
+            "level": 99,
+            "exp": 200000000
+        },
+        "slayer": {
+            "rank": 6822,
+            "level": 120,
+            "exp": 118653248
+        },
+        "farming": {
+            "rank": 880,
+            "level": 99,
+            "exp": 200000000
+        },
+        "runecrafting": {
+            "rank": 3621,
+            "level": 99,
+            "exp": 53004173
+        },
+        "hunter": {
+            "rank": 1411,
+            "level": 99,
+            "exp": 126461978
+        },
+        "construction": {
+            "rank": 2899,
+            "level": 99,
+            "exp": 65378063
+        },
+        "summoning": {
+            "rank": 3938,
+            "level": 99,
+            "exp": 113070270
+        },
+        "dungeoneering": {
+            "rank": 49,
+            "level": 120,
+            "exp": 200000000
+        },
+        "divination": {
+            "rank": 2898,
+            "level": 99,
+            "exp": 98248427
+        },
+        "invention": {
+            "rank": 1516,
+            "level": 120,
+            "exp": 200000000
+        },
+        "bounty_hunter": {
+            "rank": -1,
+            "score": -1
+        },
+        "bounty_hunter_rouges": {
+            "rank": -1,
+            "score": -1
+        },
+        "dominion_tower": {
+            "rank": 15521,
+            "score": 4411777
+        },
+        "crucible": {
+            "rank": -1,
+            "score": -1
+        },
+        "castle_wars": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_attackers": {
+            "rank": 127834,
+            "score": 552
+        },
+        "BA_defenders": {
+            "rank": 65871,
+            "score": 746
+        },
+        "BA_collectors": {
+            "rank": -1,
+            "score": -1
+        },
+        "BA_healers": {
+            "rank": -1,
+            "score": -1
+        },
+        "duel_tournaments": {
+            "rank": 3834,
+            "score": 1864
+        },
+        "mobilising_armies": {
+            "rank": -1,
+            "score": -1
+        },
+        "conquest": {
+            "rank": -1,
+            "score": -1
+        },
+        "fist_of_guthix": {
+            "rank": -1,
+            "score": -1
+        },
+        "GG_resource": {
+            "rank": 40670,
+            "score": 286
+        },
+        "GG_athletics": {
+            "rank": 66005,
+            "score": 550
+        },
+        "we2": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_guard": {
+            "rank": -1,
+            "score": -1
+        },
+        "heist_robber": {
+            "rank": -1,
+            "score": -1
+        },
+        "CFP": {
+            "rank": 29290,
+            "score": 91
+        }
     },
-    "constitution": {
-      "rank": 72777,
-      "level": 99,
-      "exp": 31586590
+    {
+        "rsn": "Broa",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "summoning": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "dungeoneering": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "divination": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "invention": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "bounty_hunter": {
+            "rank": 0,
+            "score": 0
+        },
+        "bounty_hunter_rouges": {
+            "rank": 0,
+            "score": 0
+        },
+        "dominion_tower": {
+            "rank": 0,
+            "score": 0
+        },
+        "crucible": {
+            "rank": 0,
+            "score": 0
+        },
+        "castle_wars": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_attackers": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_defenders": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_collectors": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_healers": {
+            "rank": 0,
+            "score": 0
+        },
+        "duel_tournaments": {
+            "rank": 0,
+            "score": 0
+        },
+        "mobilising_armies": {
+            "rank": 0,
+            "score": 0
+        },
+        "conquest": {
+            "rank": 0,
+            "score": 0
+        },
+        "fist_of_guthix": {
+            "rank": 0,
+            "score": 0
+        },
+        "GG_resource": {
+            "rank": 0,
+            "score": 0
+        },
+        "GG_athletics": {
+            "rank": 0,
+            "score": 0
+        },
+        "we2": {
+            "rank": 0,
+            "score": 0
+        },
+        "heist_guard": {
+            "rank": 0,
+            "score": 0
+        },
+        "heist_robber": {
+            "rank": 0,
+            "score": 0
+        },
+        "CFP": {
+            "rank": 0,
+            "score": 0
+        }
     },
-    "ranged": {
-      "rank": 58438,
-      "level": 99,
-      "exp": 23353352
-    },
-    "prayer": {
-      "rank": 56326,
-      "level": 99,
-      "exp": 14406117
-    },
-    "magic": {
-      "rank": 57874,
-      "level": 99,
-      "exp": 22931026
-    },
-    "cooking": {
-      "rank": 12173,
-      "level": 99,
-      "exp": 28069238
-    },
-    "woodcutting": {
-      "rank": 57646,
-      "level": 99,
-      "exp": 15617588
-    },
-    "fletching": {
-      "rank": 18274,
-      "level": 99,
-      "exp": 17450410
-    },
-    "fishing": {
-      "rank": 77760,
-      "level": 99,
-      "exp": 14235370
-    },
-    "firemaking": {
-      "rank": 33899,
-      "level": 99,
-      "exp": 18088244
-    },
-    "crafting": {
-      "rank": 57325,
-      "level": 99,
-      "exp": 13929297
-    },
-    "smithing": {
-      "rank": 38521,
-      "level": 99,
-      "exp": 15179461
-    },
-    "mining": {
-      "rank": 44671,
-      "level": 99,
-      "exp": 15981294
-    },
-    "herblore": {
-      "rank": 39825,
-      "level": 99,
-      "exp": 16088541
-    },
-    "agility": {
-      "rank": 33206,
-      "level": 99,
-      "exp": 14808337
-    },
-    "thieving": {
-      "rank": 18052,
-      "level": 99,
-      "exp": 34696698
-    },
-    "slayer": {
-      "rank": 41755,
-      "level": 99,
-      "exp": 21059392
-    },
-    "farming": {
-      "rank": 38952,
-      "level": 99,
-      "exp": 15920218
-    },
-    "runecrafting": {
-      "rank": 60609,
-      "level": 99,
-      "exp": 13299483
-    },
-    "hunter": {
-      "rank": 54386,
-      "level": 99,
-      "exp": 13534445
-    },
-    "construction": {
-      "rank": 34051,
-      "level": 99,
-      "exp": 15295288
-    },
-    "summoning": {
-      "rank": 39535,
-      "level": 99,
-      "exp": 14464317
-    },
-    "dungeoneering": {
-      "rank": 43639,
-      "level": 110,
-      "exp": 41419827
-    },
-    "divination": {
-      "rank": 26710,
-      "level": 99,
-      "exp": 15057209
-    },
-    "invention": {
-      "rank": -1,
-      "level": 0,
-      "exp": -1
-    },
-    "bounty_hunter": {
-      "rank": -1,
-      "score": -1
-    },
-    "bounty_hunter_rouges": {
-      "rank": -1,
-      "score": -1
-    },
-    "dominion_tower": {
-      "rank": 87433,
-      "score": 321058
-    },
-    "crucible": {
-      "rank": -1,
-      "score": -1
-    },
-    "castle_wars": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_attackers": {
-      "rank": 78375,
-      "score": 905
-    },
-    "BA_defenders": {
-      "rank": 74906,
-      "score": 703
-    },
-    "BA_collectors": {
-      "rank": 75687,
-      "score": 799
-    },
-    "BA_healers": {
-      "rank": 122495,
-      "score": 706
-    },
-    "duel_tournaments": {
-      "rank": -1,
-      "score": -1
-    },
-    "mobilising_armies": {
-      "rank": -1,
-      "score": -1
-    },
-    "conquest": {
-      "rank": -1,
-      "score": -1
-    },
-    "fist_of_guthix": {
-      "rank": 699,
-      "score": 22321
-    },
-    "GG_resource": {
-      "rank": 2165,
-      "score": 700
-    },
-    "GG_athletics": {
-      "rank": 1524,
-      "score": 622
-    },
-    "we2": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_guard": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_robber": {
-      "rank": -1,
-      "score": -1
-    },
-    "CFP": {
-      "rank": 17784,
-      "score": 96
+    {
+        "rsn": "Lostiii",
+        "overall": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "attack": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "defence": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "strength": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "constitution": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "ranged": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "prayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "magic": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "cooking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "woodcutting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fletching": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "fishing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "firemaking": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "crafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "smithing": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "mining": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "herblore": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "agility": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "thieving": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "slayer": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "farming": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "runecrafting": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "hunter": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "construction": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "summoning": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "dungeoneering": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "divination": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "invention": {
+            "rank": 0,
+            "level": 0,
+            "exp": 0
+        },
+        "bounty_hunter": {
+            "rank": 0,
+            "score": 0
+        },
+        "bounty_hunter_rouges": {
+            "rank": 0,
+            "score": 0
+        },
+        "dominion_tower": {
+            "rank": 0,
+            "score": 0
+        },
+        "crucible": {
+            "rank": 0,
+            "score": 0
+        },
+        "castle_wars": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_attackers": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_defenders": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_collectors": {
+            "rank": 0,
+            "score": 0
+        },
+        "BA_healers": {
+            "rank": 0,
+            "score": 0
+        },
+        "duel_tournaments": {
+            "rank": 0,
+            "score": 0
+        },
+        "mobilising_armies": {
+            "rank": 0,
+            "score": 0
+        },
+        "conquest": {
+            "rank": 0,
+            "score": 0
+        },
+        "fist_of_guthix": {
+            "rank": 0,
+            "score": 0
+        },
+        "GG_resource": {
+            "rank": 0,
+            "score": 0
+        },
+        "GG_athletics": {
+            "rank": 0,
+            "score": 0
+        },
+        "we2": {
+            "rank": 0,
+            "score": 0
+        },
+        "heist_guard": {
+            "rank": 0,
+            "score": 0
+        },
+        "heist_robber": {
+            "rank": 0,
+            "score": 0
+        },
+        "CFP": {
+            "rank": 0,
+            "score": 0
+        }
     }
-  },
-  {
-    "rsn": "Awie",
-    "overall": {
-      "rank": 25425,
-      "level": 2686,
-      "exp": 652359658
-    },
-    "attack": {
-      "rank": 127153,
-      "level": 99,
-      "exp": 13883644
-    },
-    "defence": {
-      "rank": 27992,
-      "level": 99,
-      "exp": 39912333
-    },
-    "strength": {
-      "rank": 110131,
-      "level": 99,
-      "exp": 15348951
-    },
-    "constitution": {
-      "rank": 32631,
-      "level": 99,
-      "exp": 53129243
-    },
-    "ranged": {
-      "rank": 21068,
-      "level": 99,
-      "exp": 50437760
-    },
-    "prayer": {
-      "rank": 37831,
-      "level": 99,
-      "exp": 15379678
-    },
-    "magic": {
-      "rank": 20880,
-      "level": 99,
-      "exp": 49808317
-    },
-    "cooking": {
-      "rank": 83573,
-      "level": 99,
-      "exp": 14180902
-    },
-    "woodcutting": {
-      "rank": 96516,
-      "level": 99,
-      "exp": 13999357
-    },
-    "fletching": {
-      "rank": 37593,
-      "level": 99,
-      "exp": 14872434
-    },
-    "fishing": {
-      "rank": 20193,
-      "level": 99,
-      "exp": 29107203
-    },
-    "firemaking": {
-      "rank": 41294,
-      "level": 99,
-      "exp": 16667412
-    },
-    "crafting": {
-      "rank": 66756,
-      "level": 99,
-      "exp": 13508059
-    },
-    "smithing": {
-      "rank": 66389,
-      "level": 99,
-      "exp": 13507809
-    },
-    "mining": {
-      "rank": 18926,
-      "level": 99,
-      "exp": 24916947
-    },
-    "herblore": {
-      "rank": 64062,
-      "level": 99,
-      "exp": 14403951
-    },
-    "agility": {
-      "rank": 63273,
-      "level": 99,
-      "exp": 13258637
-    },
-    "thieving": {
-      "rank": 16379,
-      "level": 99,
-      "exp": 38527003
-    },
-    "slayer": {
-      "rank": 12010,
-      "level": 99,
-      "exp": 48397711
-    },
-    "farming": {
-      "rank": 45532,
-      "level": 99,
-      "exp": 14974985
-    },
-    "runecrafting": {
-      "rank": 62416,
-      "level": 99,
-      "exp": 13264613
-    },
-    "hunter": {
-      "rank": 51513,
-      "level": 99,
-      "exp": 13644944
-    },
-    "construction": {
-      "rank": 64140,
-      "level": 99,
-      "exp": 13304267
-    },
-    "summoning": {
-      "rank": 44373,
-      "level": 99,
-      "exp": 14212856
-    },
-    "dungeoneering": {
-      "rank": 48612,
-      "level": 108,
-      "exp": 33195182
-    },
-    "divination": {
-      "rank": 49971,
-      "level": 99,
-      "exp": 13360778
-    },
-    "invention": {
-      "rank": 23741,
-      "level": 103,
-      "exp": 43154682
-    },
-    "bounty_hunter": {
-      "rank": -1,
-      "score": -1
-    },
-    "bounty_hunter_rouges": {
-      "rank": -1,
-      "score": -1
-    },
-    "dominion_tower": {
-      "rank": 100990,
-      "score": 136223
-    },
-    "crucible": {
-      "rank": -1,
-      "score": -1
-    },
-    "castle_wars": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_attackers": {
-      "rank": 48750,
-      "score": 1331
-    },
-    "BA_defenders": {
-      "rank": 27105,
-      "score": 1446
-    },
-    "BA_collectors": {
-      "rank": 34028,
-      "score": 1373
-    },
-    "BA_healers": {
-      "rank": 25663,
-      "score": 2319
-    },
-    "duel_tournaments": {
-      "rank": -1,
-      "score": -1
-    },
-    "mobilising_armies": {
-      "rank": -1,
-      "score": -1
-    },
-    "conquest": {
-      "rank": -1,
-      "score": -1
-    },
-    "fist_of_guthix": {
-      "rank": 20549,
-      "score": 3528
-    },
-    "GG_resource": {
-      "rank": 21236,
-      "score": 434
-    },
-    "GG_athletics": {
-      "rank": 72243,
-      "score": 550
-    },
-    "we2": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_guard": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_robber": {
-      "rank": -1,
-      "score": -1
-    },
-    "CFP": {
-      "rank": 7851,
-      "score": 119
-    }
-  },
-  {
-    "rsn": "Myan",
-    "overall": {
-      "rank": 129621,
-      "level": 2343,
-      "exp": 161093766
-    },
-    "attack": {
-      "rank": 292590,
-      "level": 88,
-      "exp": 4772673
-    },
-    "defence": {
-      "rank": 264614,
-      "level": 90,
-      "exp": 5376673
-    },
-    "strength": {
-      "rank": 304975,
-      "level": 90,
-      "exp": 5414802
-    },
-    "constitution": {
-      "rank": 265759,
-      "level": 94,
-      "exp": 8542471
-    },
-    "ranged": {
-      "rank": 219384,
-      "level": 93,
-      "exp": 7632999
-    },
-    "prayer": {
-      "rank": 184960,
-      "level": 95,
-      "exp": 8818716
-    },
-    "magic": {
-      "rank": 232178,
-      "level": 96,
-      "exp": 9777818
-    },
-    "cooking": {
-      "rank": 206778,
-      "level": 93,
-      "exp": 7943321
-    },
-    "woodcutting": {
-      "rank": 197630,
-      "level": 93,
-      "exp": 7294138
-    },
-    "fletching": {
-      "rank": 260294,
-      "level": 84,
-      "exp": 3051562
-    },
-    "fishing": {
-      "rank": 227955,
-      "level": 84,
-      "exp": 3064853
-    },
-    "firemaking": {
-      "rank": 202361,
-      "level": 92,
-      "exp": 7000865
-    },
-    "crafting": {
-      "rank": 154042,
-      "level": 85,
-      "exp": 3381823
-    },
-    "smithing": {
-      "rank": 111870,
-      "level": 94,
-      "exp": 8188197
-    },
-    "mining": {
-      "rank": 105246,
-      "level": 96,
-      "exp": 10169185
-    },
-    "herblore": {
-      "rank": 182172,
-      "level": 90,
-      "exp": 5700207
-    },
-    "agility": {
-      "rank": 126937,
-      "level": 85,
-      "exp": 3390300
-    },
-    "thieving": {
-      "rank": 110836,
-      "level": 87,
-      "exp": 4130807
-    },
-    "slayer": {
-      "rank": 130077,
-      "level": 95,
-      "exp": 9584170
-    },
-    "farming": {
-      "rank": 98891,
-      "level": 91,
-      "exp": 5940472
-    },
-    "runecrafting": {
-      "rank": 138062,
-      "level": 83,
-      "exp": 2933394
-    },
-    "hunter": {
-      "rank": 132915,
-      "level": 83,
-      "exp": 2916799
-    },
-    "construction": {
-      "rank": 110405,
-      "level": 88,
-      "exp": 4472342
-    },
-    "summoning": {
-      "rank": 120401,
-      "level": 97,
-      "exp": 10842165
-    },
-    "dungeoneering": {
-      "rank": 122490,
-      "level": 93,
-      "exp": 7863105
-    },
-    "divination": {
-      "rank": 114018,
-      "level": 83,
-      "exp": 2889909
-    },
-    "invention": {
-      "rank": -1,
-      "level": 0,
-      "exp": -1
-    },
-    "bounty_hunter": {
-      "rank": -1,
-      "score": -1
-    },
-    "bounty_hunter_rouges": {
-      "rank": -1,
-      "score": -1
-    },
-    "dominion_tower": {
-      "rank": -1,
-      "score": -1
-    },
-    "crucible": {
-      "rank": -1,
-      "score": -1
-    },
-    "castle_wars": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_attackers": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_defenders": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_collectors": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_healers": {
-      "rank": -1,
-      "score": -1
-    },
-    "duel_tournaments": {
-      "rank": -1,
-      "score": -1
-    },
-    "mobilising_armies": {
-      "rank": -1,
-      "score": -1
-    },
-    "conquest": {
-      "rank": -1,
-      "score": -1
-    },
-    "fist_of_guthix": {
-      "rank": -1,
-      "score": -1
-    },
-    "GG_resource": {
-      "rank": -1,
-      "score": -1
-    },
-    "GG_athletics": {
-      "rank": 60098,
-      "score": 561
-    },
-    "we2": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_guard": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_robber": {
-      "rank": -1,
-      "score": -1
-    },
-    "CFP": {
-      "rank": 16416,
-      "score": 99
-    }
-  },
-  {
-    "rsn": "Supersongoko",
-    "overall": {
-      "rank": 1498,
-      "level": 2715,
-      "exp": 2392877325
-    },
-    "attack": {
-      "rank": 13724,
-      "level": 99,
-      "exp": 50939389
-    },
-    "defence": {
-      "rank": 21412,
-      "level": 99,
-      "exp": 50425394
-    },
-    "strength": {
-      "rank": 13905,
-      "level": 99,
-      "exp": 51010891
-    },
-    "constitution": {
-      "rank": 11727,
-      "level": 99,
-      "exp": 97580849
-    },
-    "ranged": {
-      "rank": 10908,
-      "level": 99,
-      "exp": 83799641
-    },
-    "prayer": {
-      "rank": 1121,
-      "level": 99,
-      "exp": 107496520
-    },
-    "magic": {
-      "rank": 10748,
-      "level": 99,
-      "exp": 88181178
-    },
-    "cooking": {
-      "rank": 191,
-      "level": 99,
-      "exp": 200000000
-    },
-    "woodcutting": {
-      "rank": 2459,
-      "level": 99,
-      "exp": 72349867
-    },
-    "fletching": {
-      "rank": 1320,
-      "level": 99,
-      "exp": 105781358
-    },
-    "fishing": {
-      "rank": 4151,
-      "level": 99,
-      "exp": 92809754
-    },
-    "firemaking": {
-      "rank": 1055,
-      "level": 99,
-      "exp": 200000000
-    },
-    "crafting": {
-      "rank": 2998,
-      "level": 99,
-      "exp": 43399254
-    },
-    "smithing": {
-      "rank": 4409,
-      "level": 99,
-      "exp": 41658738
-    },
-    "mining": {
-      "rank": 8280,
-      "level": 99,
-      "exp": 44629182
-    },
-    "herblore": {
-      "rank": 3735,
-      "level": 99,
-      "exp": 60403078
-    },
-    "agility": {
-      "rank": 2271,
-      "level": 99,
-      "exp": 53688281
-    },
-    "thieving": {
-      "rank": 3461,
-      "level": 99,
-      "exp": 131080426
-    },
-    "slayer": {
-      "rank": 10044,
-      "level": 99,
-      "exp": 54554024
-    },
-    "farming": {
-      "rank": 881,
-      "level": 99,
-      "exp": 133702444
-    },
-    "runecrafting": {
-      "rank": 2712,
-      "level": 99,
-      "exp": 38019340
-    },
-    "hunter": {
-      "rank": 2675,
-      "level": 99,
-      "exp": 40658826
-    },
-    "construction": {
-      "rank": 2176,
-      "level": 99,
-      "exp": 44188562
-    },
-    "summoning": {
-      "rank": 2169,
-      "level": 99,
-      "exp": 112335029
-    },
-    "dungeoneering": {
-      "rank": 53,
-      "level": 120,
-      "exp": 200000000
-    },
-    "divination": {
-      "rank": 2419,
-      "level": 99,
-      "exp": 44564560
-    },
-    "invention": {
-      "rank": 2111,
-      "level": 120,
-      "exp": 149620740
-    },
-    "bounty_hunter": {
-      "rank": -1,
-      "score": -1
-    },
-    "bounty_hunter_rouges": {
-      "rank": -1,
-      "score": -1
-    },
-    "dominion_tower": {
-      "rank": 13589,
-      "score": 4411777
-    },
-    "crucible": {
-      "rank": -1,
-      "score": -1
-    },
-    "castle_wars": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_attackers": {
-      "rank": 136297,
-      "score": 552
-    },
-    "BA_defenders": {
-      "rank": 70871,
-      "score": 746
-    },
-    "BA_collectors": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_healers": {
-      "rank": -1,
-      "score": -1
-    },
-    "duel_tournaments": {
-      "rank": 4092,
-      "score": 1864
-    },
-    "mobilising_armies": {
-      "rank": -1,
-      "score": -1
-    },
-    "conquest": {
-      "rank": -1,
-      "score": -1
-    },
-    "fist_of_guthix": {
-      "rank": -1,
-      "score": -1
-    },
-    "GG_resource": {
-      "rank": 44718,
-      "score": 286
-    },
-    "GG_athletics": {
-      "rank": 76131,
-      "score": 550
-    },
-    "we2": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_guard": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_robber": {
-      "rank": -1,
-      "score": -1
-    },
-    "CFP": {
-      "rank": 3967,
-      "score": 133
-    }
-  },
-  {
-    "rsn": "Broa",
-    "overall": {
-      "rank": 67583,
-      "level": 2564,
-      "exp": 381094337
-    },
-    "attack": {
-      "rank": 157105,
-      "level": 99,
-      "exp": 13197963
-    },
-    "defence": {
-      "rank": 23802,
-      "level": 99,
-      "exp": 45828234
-    },
-    "strength": {
-      "rank": 109776,
-      "level": 99,
-      "exp": 15372292
-    },
-    "constitution": {
-      "rank": 67238,
-      "level": 99,
-      "exp": 33242213
-    },
-    "ranged": {
-      "rank": 131438,
-      "level": 99,
-      "exp": 14141200
-    },
-    "prayer": {
-      "rank": 55285,
-      "level": 99,
-      "exp": 14445240
-    },
-    "magic": {
-      "rank": 80313,
-      "level": 99,
-      "exp": 18519451
-    },
-    "cooking": {
-      "rank": 129022,
-      "level": 99,
-      "exp": 13379946
-    },
-    "woodcutting": {
-      "rank": 174125,
-      "level": 96,
-      "exp": 9936861
-    },
-    "fletching": {
-      "rank": 112354,
-      "level": 99,
-      "exp": 13192576
-    },
-    "fishing": {
-      "rank": 139539,
-      "level": 94,
-      "exp": 8159010
-    },
-    "firemaking": {
-      "rank": 60690,
-      "level": 99,
-      "exp": 14829705
-    },
-    "crafting": {
-      "rank": 92139,
-      "level": 97,
-      "exp": 11397454
-    },
-    "smithing": {
-      "rank": 63444,
-      "level": 99,
-      "exp": 13606615
-    },
-    "mining": {
-      "rank": 81762,
-      "level": 99,
-      "exp": 13377659
-    },
-    "herblore": {
-      "rank": 105906,
-      "level": 99,
-      "exp": 13265191
-    },
-    "agility": {
-      "rank": 118569,
-      "level": 86,
-      "exp": 3894492
-    },
-    "thieving": {
-      "rank": 24150,
-      "level": 99,
-      "exp": 25711565
-    },
-    "slayer": {
-      "rank": 27199,
-      "level": 99,
-      "exp": 27688722
-    },
-    "farming": {
-      "rank": 95574,
-      "level": 91,
-      "exp": 6417977
-    },
-    "runecrafting": {
-      "rank": 117503,
-      "level": 88,
-      "exp": 4540394
-    },
-    "hunter": {
-      "rank": 109542,
-      "level": 88,
-      "exp": 4590790
-    },
-    "construction": {
-      "rank": 113084,
-      "level": 87,
-      "exp": 4195754
-    },
-    "summoning": {
-      "rank": 63803,
-      "level": 99,
-      "exp": 13617231
-    },
-    "dungeoneering": {
-      "rank": 112431,
-      "level": 95,
-      "exp": 9443805
-    },
-    "divination": {
-      "rank": 120600,
-      "level": 82,
-      "exp": 2634767
-    },
-    "invention": {
-      "rank": 48343,
-      "level": 76,
-      "exp": 12467230
-    },
-    "bounty_hunter": {
-      "rank": -1,
-      "score": -1
-    },
-    "bounty_hunter_rouges": {
-      "rank": -1,
-      "score": -1
-    },
-    "dominion_tower": {
-      "rank": 30931,
-      "score": 2998191
-    },
-    "crucible": {
-      "rank": -1,
-      "score": -1
-    },
-    "castle_wars": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_attackers": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_defenders": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_collectors": {
-      "rank": -1,
-      "score": -1
-    },
-    "BA_healers": {
-      "rank": -1,
-      "score": -1
-    },
-    "duel_tournaments": {
-      "rank": -1,
-      "score": -1
-    },
-    "mobilising_armies": {
-      "rank": -1,
-      "score": -1
-    },
-    "conquest": {
-      "rank": -1,
-      "score": -1
-    },
-    "fist_of_guthix": {
-      "rank": -1,
-      "score": -1
-    },
-    "GG_resource": {
-      "rank": 19480,
-      "score": 450
-    },
-    "GG_athletics": {
-      "rank": 97359,
-      "score": 544
-    },
-    "we2": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_guard": {
-      "rank": -1,
-      "score": -1
-    },
-    "heist_robber": {
-      "rank": -1,
-      "score": -1
-    },
-    "CFP": {
-      "rank": 5398,
-      "score": 127
-    }
-  },
-  {
-    "rsn": "Lostiii",
-    "overall": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "attack": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "defence": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "strength": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "constitution": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "ranged": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "prayer": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "magic": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "cooking": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "woodcutting": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "fletching": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "fishing": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "firemaking": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "crafting": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "smithing": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "mining": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "herblore": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "agility": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "thieving": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "slayer": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "farming": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "runecrafting": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "hunter": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "construction": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "summoning": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "dungeoneering": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "divination": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "invention": {
-      "rank": 0,
-      "level": 0,
-      "exp": 0
-    },
-    "bounty_hunter": {
-      "rank": 0,
-      "score": 0
-    },
-    "bounty_hunter_rouges": {
-      "rank": 0,
-      "score": 0
-    },
-    "dominion_tower": {
-      "rank": 0,
-      "score": 0
-    },
-    "crucible": {
-      "rank": 0,
-      "score": 0
-    },
-    "castle_wars": {
-      "rank": 0,
-      "score": 0
-    },
-    "BA_attackers": {
-      "rank": 0,
-      "score": 0
-    },
-    "BA_defenders": {
-      "rank": 0,
-      "score": 0
-    },
-    "BA_collectors": {
-      "rank": 0,
-      "score": 0
-    },
-    "BA_healers": {
-      "rank": 0,
-      "score": 0
-    },
-    "duel_tournaments": {
-      "rank": 0,
-      "score": 0
-    },
-    "mobilising_armies": {
-      "rank": 0,
-      "score": 0
-    },
-    "conquest": {
-      "rank": 0,
-      "score": 0
-    },
-    "fist_of_guthix": {
-      "rank": 0,
-      "score": 0
-    },
-    "GG_resource": {
-      "rank": 0,
-      "score": 0
-    },
-    "GG_athletics": {
-      "rank": 0,
-      "score": 0
-    },
-    "we2": {
-      "rank": 0,
-      "score": 0
-    },
-    "heist_guard": {
-      "rank": 0,
-      "score": 0
-    },
-    "heist_robber": {
-      "rank": 0,
-      "score": 0
-    },
-    "CFP": {
-      "rank": 0,
-      "score": 0
-    }
-  }
 ]

@@ -28,6 +28,8 @@ $(document).ready(function(){
 
 });
 
+var all, lst;
+
 String.prototype.capitalize = function(){
 	return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
 };
@@ -42,11 +44,13 @@ function getVLevel(exp){
 
 function getCombat(player){
 	var style = 1.3 * Math.max(player.attack.level+player.strength.level, 1.5*player.magic.level, 1.5*player.ranged.level);
-	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + (player.summoning.level/2) + style;
+	var summon = (player.summoning && player.summoning.level) || 0;
+	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + (summon/2) + style;
 	return Math.floor(cmb/4);
 }
 
 function setMemberlist(ml, game){
+	all = [], lst = [];
 	if (!game) game = "eoc";
 	var ml = ml.replace("-","/").replace("_","/");
 	var url = "json/"+game+"/"+ml+".json";
@@ -76,7 +80,7 @@ function createTable(stat, isSkill){
 	
 	$("#tableHiscores tbody").html("");
 	$.each(json, function (i, player){
-		var cellAvatar = '<td><img src="http://services.runescape.com/m=avatar-rs/'+player.rsn+'/chat.png" alt=""></td>';
+		var cellAvatar = '<td><img src="https://services.runescape.com/m=avatar-rs/'+player.rsn+'/chat.png" alt=""></td>';
 		var cellRSN = '<td><a class="rsn" title="'+player.rsn+'">'+player.rsn+'</a></td>';
 		var cellCombat = '<td>'+getCombat(player)+'</td>';
 
@@ -91,12 +95,12 @@ function createTable(stat, isSkill){
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatScore+"</tr>";
 		}
 
+		all.push(player.rsn);
 		if ((isSkill && player[stat].level>1) || player[stat].rank > 0){
 			$("#tableHiscores tbody").append(rowContent);
 			x++;
+			lst.push(player.rsn);
 		}
-
-
 	});
 
 	var rowHeadSkill = '<tr><th><img src="res/img/'+stat+'.png"></th><th colspan="2">'+statName+'</th><th>Combat</th><th>Level</th><th>Experience</th></tr>';
