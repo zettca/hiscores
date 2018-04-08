@@ -34,17 +34,15 @@ String.prototype.capitalize = function(){
 
 function getVLevel(exp){
 	var xp=0;
-	if (exp<0 || exp>200000000) return -1;
-
-	for (var lvl=1;lvl<127;lvl++){
-		xp += Math.floor(lvl + 300 * Math.pow(2, lvl / 7.));
-		if (Math.floor(xp/4) > exp) return lvl; 
+	for (var lvl=1; lvl<=160; lvl++){
+		xp += Math.floor(lvl + 300 * Math.pow(2, lvl / 7.0));
+		if (Math.floor(xp/4) > exp) return lvl;
 	}
 }
 
 function getCombat(player){
-	var melee = 1.3 * Math.max(player.attack.level+player.strength.level, 1.5*player.magic.level, 1.5*player.ranged.level);
-	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + (player.summoning.level/2) + melee;
+	var style = 1.3 * Math.max(player.attack.level+player.strength.level, 1.5*player.magic.level, 1.5*player.ranged.level);
+	var cmb = player.defence.level + player.constitution.level + (player.prayer.level/2) + (player.summoning.level/2) + style;
 	return Math.floor(cmb/4);
 }
 
@@ -84,7 +82,7 @@ function createTable(stat, isSkill){
 
 		if (isSkill){
 			var vLvl = getVLevel(player[stat].exp);
-			var cellStatLevel = '<td title="'+vLvl+'">'+player[stat].level+' </td>';
+			var cellStatLevel = "<td>"+player[stat].level+" ("+vLvl+")</td>";
 			var cellStatExp = "<td>"+player[stat].exp+"</td>";
 			var rowContent = "<tr><td>"+(i+1)+"</td>"+cellAvatar+cellRSN+cellCombat+cellStatLevel+cellStatExp+"</tr>";
 		} else{
